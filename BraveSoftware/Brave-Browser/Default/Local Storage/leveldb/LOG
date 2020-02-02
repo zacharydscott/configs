@@ -1,6 +1,0 @@
-2020/02/02-03:25:04.515 5f6 Reusing MANIFEST /home/zach/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/02/02-03:25:04.515 5f6 Recovering log #45
-2020/02/02-03:25:04.516 5f6 Reusing old log /home/zach/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000045.log 
-2020/02/02-04:01:20.829 760 Level-0 table #49: started
-2020/02/02-04:01:20.831 760 Level-0 table #49: 22306 bytes OK
-2020/02/02-04:01:20.833 760 Delete type=0 #45
