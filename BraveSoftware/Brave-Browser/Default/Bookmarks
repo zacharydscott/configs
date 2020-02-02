@@ -1,0 +1,40 @@
+{
+   "checksum": "559dc6d1687bd6f8a8647f1893bbcb35",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13225096445315098",
+            "guid": "74e44907-b84b-4121-ae09-05c9fc872d31",
+            "id": "5",
+            "name": "How to make the polybar transparent | Arcolinux.com",
+            "type": "url",
+            "url": "https://arcolinux.com/how-to-make-the-polybar-transparent/"
+         } ],
+         "date_added": "13225096235919214",
+         "date_modified": "13225096445315098",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13225096235919229",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13225096235919231",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
