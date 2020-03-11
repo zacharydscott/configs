@@ -1,0 +1,45 @@
+[global_config]
+  always_on_top = True
+  borderless = True
+  focus = system
+  title_hide_sizetext = True
+  window_state = fullscreen
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[New Layout]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = be5e5c13-fd29-48b6-8dbe-5a451e7b5ab9
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 6:6
+      size = 197, 754
+      title = main@ARCH-top:~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = be5e5c13-fd29-48b6-8dbe-5a451e7b5ab9
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.64
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Inconsolata-g for Powerline Medium 9
+    icon_bell = False
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False

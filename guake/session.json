@@ -1,0 +1,20 @@
+{
+    "schema_version": 2,
+    "timestamp": 1583052718,
+    "workspace": {
+        "0": [
+            [
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/main"
+                        }
+                    ],
+                    "label": "main@ARCH-top:~",
+                    "custom_label_set": false
+                }
+            ]
+        ]
+    }
+}

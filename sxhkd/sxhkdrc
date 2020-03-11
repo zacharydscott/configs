@@ -1,0 +1,110 @@
+### SXHKD configuration
+
+###
+# I'm trying a little theming with the commands here.
+# note quite a full vim level of descriptive commands,
+# but it still should have some consistency and
+# expressiveness.
+# 
+# help
+# super - used for for all bspc based hotkeys. This 
+# 	is to prevent overlap with window programs.
+#
+# ctrl - "desktop mode" attempts to mirror the hotkeys
+# 	for nodes with the alt key. I'm cheating
+# 	for the super + # commands, as it increases
+# 	ease of use significantly.
+#
+# alt - primarily used for special commands, such
+# 	as restart bspwm or power down
+#
+# qwer - reserved for system commands
+###
+
+# quit/restart bspwm
+super + alt  + {q,r}
+	bspc {quit, wm -r}
+
+# Power down or restart the system
+super + alt + e
+	power-down-menu
+
+#close and kill
+super + {x,c}
+	bspc node -{k,c}
+
+# use dmenu as an app launcher
+super + space
+	~/.config/sxhkd/app-launcher.sh
+
+# Simple program shortcuts
+super + t
+	urxvt
+
+super + b
+	brave
+
+# open up wallpapers
+super + alt + i
+	sxiv --focust ~/pictures/wallpapers*
+
+## NODE_COMMANDS
+
+# vim keybindings for changing selected node relative to current
+super + {h,j,k,l}
+	bspc node {west,south,north,east} --focus
+
+# vim like bindings for swapping nodes current node for a given direction
+super + shift + {h,j,k,l}
+	bspc node --swap {west,south,north,east}
+s
+# rotate the current node with it's sibling
+super + {m,n}
+	bspc node @parent -R {90,-90}
+
+# pull current  node into floating mode
+super + f
+	bspc node --state ~fullscreen
+
+super + g 
+	bspc node --state ~floating
+
+# Resize, up a row from vim keys
+super + u
+	bspc node --resize left -50 0
+
+super + i
+	bspc node --resize bottom 0 50
+
+super + o
+	bspc node --resize top 0 -50
+
+super + p
+	bspc node --resize right 50 0
+
+# Resize, up a row from vim keys
+super + shift + u
+	bspc node --resize left 50 0
+
+super + shift + i
+	bspc node --resize bottom 0 -50
+
+super + shift + o
+	bspc node --resize top 0 50
+
+super + shift +p
+	bspc node --resize right -50 0
+
+## DESKTOP_COMMANDS
+
+# Cycle through monitors TODO: add h and l
+super + {comma, semicolon}
+	bspc desktop {prev,next} --focus
+
+# alt tab like behavior
+super + Tab
+	bspc desktop last --focus
+
+# I know it's cheating but it's fine.
+super + {1,2,3,4,5,6,7,8,9,0}
+	bspc desktop {1,2,3,4,5,6,7,8,9,0} --focus

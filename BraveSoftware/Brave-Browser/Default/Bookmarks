@@ -1,0 +1,40 @@
+{
+   "checksum": "2bbf9ac364ea0ae31012e85eaa02918f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13228366516083864",
+            "guid": "1cc2fa74-5bf7-40ca-b73a-e81bba5be3f0",
+            "id": "5",
+            "name": "Your Repositories",
+            "type": "url",
+            "url": "https://github.com/zacharydscott?tab=repositories"
+         } ],
+         "date_added": "13228365188620705",
+         "date_modified": "13228366516083864",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13228365188620717",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13228365188620724",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

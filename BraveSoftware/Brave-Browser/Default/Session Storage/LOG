@@ -1,0 +1,9 @@
+2020/03/10-20:53:23.495 336 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2020/03/10-20:53:23.496 336 Recovering log #618
+2020/03/10-20:53:23.497 336 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000618.log 
+2020/03/10-21:13:40.567 c74 Level-0 table #623: started
+2020/03/10-21:13:40.574 c74 Level-0 table #623: 23381 bytes OK
+2020/03/10-21:13:40.577 c74 Delete type=0 #618
+2020/03/10-21:18:51.147 c74 Level-0 table #625: started
+2020/03/10-21:18:51.160 c74 Level-0 table #625: 15606 bytes OK
+2020/03/10-21:18:51.163 c74 Delete type=0 #622
