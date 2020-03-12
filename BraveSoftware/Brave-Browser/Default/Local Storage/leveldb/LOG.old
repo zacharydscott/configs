@@ -1,132 +1,18 @@
-2020/03/09-03:01:57.429 593 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/09-03:01:57.429 593 Recovering log #291
-2020/03/09-03:01:57.571 593 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000291.log 
-2020/03/09-03:03:43.292 63c Level-0 table #296: started
-2020/03/09-03:03:43.322 63c Level-0 table #296: 14387 bytes OK
-2020/03/09-03:03:43.333 63c Delete type=0 #291
-2020/03/09-03:38:46.650 63c Level-0 table #298: started
-2020/03/09-03:38:46.674 63c Level-0 table #298: 65731 bytes OK
-2020/03/09-03:38:46.693 63c Delete type=0 #295
-2020/03/09-03:45:34.087 63c Level-0 table #300: started
-2020/03/09-03:45:34.095 63c Level-0 table #300: 60694 bytes OK
-2020/03/09-03:45:34.099 63c Delete type=0 #297
-2020/03/09-03:47:37.757 63c Level-0 table #302: started
-2020/03/09-03:47:37.765 63c Level-0 table #302: 60484 bytes OK
-2020/03/09-03:47:37.768 63c Delete type=0 #299
-2020/03/09-03:47:37.769 63c Compacting 4@0 + 1@1 files
-2020/03/09-03:47:37.917 63c Generated table #303@0: 687 keys, 1564339 bytes
-2020/03/09-03:47:37.918 63c Compacted 4@0 + 1@1 files => 1564339 bytes
-2020/03/09-03:47:37.921 63c compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/03/09-03:47:37.921 63c Delete type=2 #296
-2020/03/09-03:47:37.921 63c Delete type=2 #293
-2020/03/09-03:47:37.921 63c Delete type=2 #300
-2020/03/09-03:47:37.921 63c Delete type=2 #298
-2020/03/09-03:47:37.921 63c Delete type=2 #302
-2020/03/09-03:50:02.655 63c Level-0 table #305: started
-2020/03/09-03:50:02.664 63c Level-0 table #305: 61729 bytes OK
-2020/03/09-03:50:02.672 63c Delete type=0 #301
-2020/03/09-03:51:28.349 63c Level-0 table #307: started
-2020/03/09-03:51:28.372 63c Level-0 table #307: 83683 bytes OK
-2020/03/09-03:51:28.392 63c Delete type=0 #304
-2020/03/09-03:56:09.836 63c Level-0 table #309: started
-2020/03/09-03:56:09.855 63c Level-0 table #309: 86100 bytes OK
-2020/03/09-03:56:09.858 63c Delete type=0 #306
-2020/03/09-06:01:42.709 63c Level-0 table #311: started
-2020/03/09-06:01:42.716 63c Level-0 table #311: 14228 bytes OK
-2020/03/09-06:01:42.720 63c Delete type=0 #308
-2020/03/09-06:01:42.720 63c Compacting 4@0 + 1@1 files
-2020/03/09-06:01:42.805 63c Generated table #312@0: 696 keys, 1588730 bytes
-2020/03/09-06:01:42.805 63c Compacted 4@0 + 1@1 files => 1588730 bytes
-2020/03/09-06:01:42.808 63c compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/03/09-06:01:42.809 63c Delete type=2 #307
-2020/03/09-06:01:42.809 63c Delete type=2 #305
-2020/03/09-06:01:42.809 63c Delete type=2 #311
-2020/03/09-06:01:42.809 63c Delete type=2 #309
-2020/03/09-06:01:42.809 63c Delete type=2 #303
-2020/03/09-20:30:02.121 63c Level-0 table #314: started
-2020/03/09-20:30:02.127 63c Level-0 table #314: 12440 bytes OK
-2020/03/09-20:30:02.147 63c Delete type=0 #310
-2020/03/10-00:59:47.963 63c Level-0 table #316: started
-2020/03/10-00:59:49.616 63c Level-0 table #316: 13030 bytes OK
-2020/03/10-00:59:49.626 63c Delete type=0 #313
-2020/03/10-02:39:18.392 63c Level-0 table #318: started
-2020/03/10-02:39:18.397 63c Level-0 table #318: 14452 bytes OK
-2020/03/10-02:39:18.401 63c Delete type=0 #315
-2020/03/10-02:58:47.966 63c Level-0 table #320: started
-2020/03/10-02:58:47.976 63c Level-0 table #320: 89514 bytes OK
-2020/03/10-02:58:47.980 63c Delete type=0 #317
-2020/03/10-02:58:47.980 63c Compacting 4@0 + 1@1 files
-2020/03/10-02:58:48.136 63c Generated table #321@0: 696 keys, 1588848 bytes
-2020/03/10-02:58:48.136 63c Compacted 4@0 + 1@1 files => 1588848 bytes
-2020/03/10-02:58:48.140 63c compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/03/10-02:58:48.140 63c Delete type=2 #314
-2020/03/10-02:58:48.140 63c Delete type=2 #312
-2020/03/10-02:58:48.140 63c Delete type=2 #318
-2020/03/10-02:58:48.140 63c Delete type=2 #316
-2020/03/10-02:58:48.141 63c Delete type=2 #320
-2020/03/10-03:08:47.962 63c Level-0 table #323: started
-2020/03/10-03:08:47.979 63c Level-0 table #323: 84723 bytes OK
-2020/03/10-03:08:47.982 63c Delete type=0 #319
-2020/03/10-03:09:47.962 63c Level-0 table #325: started
-2020/03/10-03:09:47.983 63c Level-0 table #325: 83843 bytes OK
-2020/03/10-03:09:47.994 63c Delete type=0 #322
-2020/03/10-03:39:27.919 63c Level-0 table #327: started
-2020/03/10-03:39:27.930 63c Level-0 table #327: 93626 bytes OK
-2020/03/10-03:39:27.933 63c Delete type=0 #324
-2020/03/10-03:39:47.963 63c Level-0 table #329: started
-2020/03/10-03:39:47.993 63c Level-0 table #329: 83611 bytes OK
-2020/03/10-03:39:48.004 63c Delete type=0 #326
-2020/03/10-03:39:48.004 63c Compacting 4@0 + 1@1 files
-2020/03/10-03:39:50.072 63c Generated table #330@0: 701 keys, 1589120 bytes
-2020/03/10-03:39:50.072 63c Compacted 4@0 + 1@1 files => 1589120 bytes
-2020/03/10-03:39:50.766 63c compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/03/10-03:39:50.766 63c Delete type=2 #325
-2020/03/10-03:39:50.766 63c Delete type=2 #321
-2020/03/10-03:39:50.766 63c Delete type=2 #323
-2020/03/10-03:39:50.766 63c Delete type=2 #327
-2020/03/10-03:39:50.766 63c Delete type=2 #329
-2020/03/10-03:40:47.964 63c Level-0 table #332: started
-2020/03/10-03:40:47.974 63c Level-0 table #332: 83773 bytes OK
-2020/03/10-03:40:47.977 63c Delete type=0 #328
-2020/03/10-03:41:21.748 63c Level-0 table #334: started
-2020/03/10-03:41:21.757 63c Level-0 table #334: 83773 bytes OK
-2020/03/10-03:41:21.762 63c Delete type=0 #331
-2020/03/10-03:41:27.592 63c Level-0 table #336: started
-2020/03/10-03:41:27.602 63c Level-0 table #336: 83517 bytes OK
-2020/03/10-03:41:27.606 63c Delete type=0 #333
-2020/03/10-03:41:35.582 63c Level-0 table #338: started
-2020/03/10-03:41:35.593 63c Level-0 table #338: 83517 bytes OK
-2020/03/10-03:41:35.599 63c Delete type=0 #335
-2020/03/10-03:41:35.599 63c Compacting 4@0 + 1@1 files
-2020/03/10-03:41:35.680 63c Generated table #339@0: 701 keys, 1589117 bytes
-2020/03/10-03:41:35.680 63c Compacted 4@0 + 1@1 files => 1589117 bytes
-2020/03/10-03:41:35.684 63c compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/03/10-03:41:35.684 63c Delete type=2 #338
-2020/03/10-03:41:35.684 63c Delete type=2 #334
-2020/03/10-03:41:35.684 63c Delete type=2 #330
-2020/03/10-03:41:35.684 63c Delete type=2 #332
-2020/03/10-03:41:35.684 63c Delete type=2 #336
-2020/03/10-03:41:47.962 63c Level-0 table #341: started
-2020/03/10-03:41:47.985 63c Level-0 table #341: 329396 bytes OK
-2020/03/10-03:41:47.989 63c Delete type=0 #337
-2020/03/10-03:42:47.963 63c Level-0 table #343: started
-2020/03/10-03:42:47.974 63c Level-0 table #343: 83762 bytes OK
-2020/03/10-03:42:47.978 63c Delete type=0 #340
-2020/03/10-03:49:40.792 63c Level-0 table #345: started
-2020/03/10-03:49:40.802 63c Level-0 table #345: 86969 bytes OK
-2020/03/10-03:49:40.806 63c Delete type=0 #342
-2020/03/10-03:50:47.963 63c Level-0 table #347: started
-2020/03/10-03:50:47.981 63c Level-0 table #347: 83893 bytes OK
-2020/03/10-03:50:47.985 63c Delete type=0 #344
-2020/03/10-03:50:47.986 63c Compacting 4@0 + 1@1 files
-2020/03/10-03:50:48.065 63c Generated table #348@0: 701 keys, 1604003 bytes
-2020/03/10-03:50:48.065 63c Compacted 4@0 + 1@1 files => 1604003 bytes
-2020/03/10-03:50:48.069 63c compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/03/10-03:50:48.069 63c Delete type=2 #347
-2020/03/10-03:50:48.069 63c Delete type=2 #341
-2020/03/10-03:50:48.069 63c Delete type=2 #339
-2020/03/10-03:50:48.069 63c Delete type=2 #345
-2020/03/10-03:50:48.070 63c Delete type=2 #343
-2020/03/10-06:32:47.963 63c Level-0 table #350: started
-2020/03/10-06:32:48.473 63c Level-0 table #350: 13753 bytes OK
-2020/03/10-06:32:48.986 63c Delete type=0 #346
+2020/03/11-04:19:57.025 3a4b Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/11-04:19:57.025 3a4b Recovering log #374
+2020/03/11-04:19:57.025 3a4b Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000374.log 
+2020/03/11-04:20:57.849 3c58 Level-0 table #378: started
+2020/03/11-04:20:57.881 3c58 Level-0 table #378: 96604 bytes OK
+2020/03/11-04:20:57.894 3c58 Delete type=0 #374
+2020/03/11-04:20:57.895 3c58 Compacting 4@0 + 1@1 files
+2020/03/11-04:20:58.116 3c58 Generated table #379@0: 718 keys, 1605613 bytes
+2020/03/11-04:20:58.116 3c58 Compacted 4@0 + 1@1 files => 1605613 bytes
+2020/03/11-04:20:58.129 3c58 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/11-04:20:58.130 3c58 Delete type=2 #368
+2020/03/11-04:20:58.130 3c58 Delete type=2 #373
+2020/03/11-04:20:58.130 3c58 Delete type=2 #370
+2020/03/11-04:20:58.130 3c58 Delete type=2 #375
+2020/03/11-04:20:58.130 3c58 Delete type=2 #378
+2020/03/11-07:00:57.849 3c58 Level-0 table #381: started
+2020/03/11-07:00:57.859 3c58 Level-0 table #381: 12193 bytes OK
+2020/03/11-07:00:57.862 3c58 Delete type=0 #377

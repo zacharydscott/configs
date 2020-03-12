@@ -1,10 +1,14 @@
 call plug#begin('~/.vim/plugged')
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'preservim/nerdtree'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'morhetz/gruvbox'
 "Plug 'lervag/vimtex'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 call plug#end()
 
 
@@ -17,12 +21,21 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 " change window navigation
+
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+nnoremap > >>
+nnoremap < <<
+
 " nerd tree
 map <C-n> :NERDTreeToggle<CR> 
+
+"" theme
+colorscheme gruvbox
+hi Normal guibg=NONE ctermbg=NONE
 
 "" ctrl-p
 let g:ctrlp_custom_igrnoe = 'node_modules\|git'
@@ -36,24 +49,24 @@ let NERDTreeDirArrows = 1
 set nocompatible
 
 "" COC settings
-"let g:coc_global_extensions = [
-"	\ 'coc-snippets',
-"	\ 'coc-pairs',
-"	\ 'coc-tsserver',
-"	\ 'coc-eslint',
-"	\ 'coc-json',
-"	\ 'coc-angular',
-"	\]
-"
+let g:coc_global_extensions = [
+	\ 'coc-snippets',
+	\ 'coc-pairs',
+	\ 'coc-tsserver',
+	\ 'coc-eslint',
+	\ 'coc-json',
+	\ 'coc-angular',
+	\]
+
 "" suggested by COC for server compatibility
 "set hidden
 "set nobackup
 "set nowritebackup
-"set cmdheight=2
-"set updatetime=300
+set cmdheight=2
+set updatetime=300
 "
 "" don't give |ins-completion-menu| messages.
-"set shortmess+=c
+set shortmess+=c
 "
 "" for gutters
 "set signcolumn=yes
@@ -88,13 +101,13 @@ set nocompatible
 "nmap <silent> ]g <Plug>(coc-diagnostic-next)
 "
 "" GoTo code navigation.
-"nmap <silent> gd <Plug>(coc-definition)
-"nmap <silent> gy <Plug>(coc-type-definition)
-"nmap <silent> gi <Plug>(coc-implementation)
-"nmap <silent> gr <Plug>(coc-references)
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 "
 "" Use K to show documentation in preview window.
-"nnoremap <silent> K :call <SID>show_documentation()<CR>
+nnoremap <silent> K :call <SID>show_documentation()<CR>
 "
 "function! s:show_documentation()
 "  if (index(['vim','help'], &filetype) >= 0)
@@ -108,11 +121,11 @@ set nocompatible
 "autocmd CursorHold * silent call CocActionAsync('highlight')
 "
 "" Symbol renaming.
-"nmap <leaer>rn <Plug>(coc-rename)
+nmap <leaer>r <Plug>(coc-rename)
 "
 "" Formatting selected code.
-"xmap <leader>f  <Plug>(coc-format-selected)
-"nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
 "
 "augroup mygroup
 "  autocmd!
@@ -134,10 +147,10 @@ set nocompatible
 "
 "" Introduce function text object
 "" NOTE: Requires 'textDocument.documentSymbol' support from the language server.
-"xmap if <Plug>(coc-funcobj-i)
-"xmap af <Plug>(coc-funcobj-a)
-"omap if <Plug>(coc-funcobj-i)
-"omap af <Plug>(coc-funcobj-a)
+xmap if <Plug>(coc-funcobj-i)
+xmap af <Plug>(coc-funcobj-a)
+omap if <Plug>(coc-funcobj-i)
+omap af <Plug>(coc-funcobj-a)
 "
 "" Use <TAB> for selections ranges.
 "" NOTE: Requires 'textDocument/selectionRange' support from the language server.
@@ -178,6 +191,8 @@ set nocompatible
 "nnoremap <silent> <space>p  :<C-u>CocListResume<CR>d
 "
 
+"" control p set wildignore+=*/.git/*,*/node_modules/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor
+
 "" latex settings
 autocmd BufWritePost *.tex :execute "! pdflatex" expand("%:t") 
 "let g:livepreview_previewer = 'zathura'
@@ -191,3 +206,4 @@ set t_Co=256
 set number relativenumber
 set tabstop=4
 set shiftwidth=4
+set encoding=UTF-8

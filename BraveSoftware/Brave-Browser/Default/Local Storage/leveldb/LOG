@@ -1,3 +1,45 @@
-2020/03/10-20:53:14.725 262 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/10-20:53:14.725 262 Recovering log #349
-2020/03/10-20:53:14.741 262 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000349.log 
+2020/03/11-20:53:50.498 290 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/11-20:53:50.498 290 Recovering log #380
+2020/03/11-20:53:50.583 290 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000380.log 
+2020/03/11-20:54:09.631 4ea Level-0 table #384: started
+2020/03/11-20:54:09.648 4ea Level-0 table #384: 89105 bytes OK
+2020/03/11-20:54:09.651 4ea Delete type=0 #380
+2020/03/11-20:56:50.892 4ea Level-0 table #386: started
+2020/03/11-20:56:53.419 4ea Level-0 table #386: 85836 bytes OK
+2020/03/11-20:56:54.542 4ea Delete type=0 #383
+2020/03/11-21:06:50.893 4ea Level-0 table #388: started
+2020/03/11-21:06:51.222 4ea Level-0 table #388: 84635 bytes OK
+2020/03/11-21:06:51.300 4ea Delete type=0 #385
+2020/03/11-21:06:51.301 4ea Compacting 4@0 + 1@1 files
+2020/03/11-21:06:52.928 4ea Generated table #389@0: 718 keys, 1605607 bytes
+2020/03/11-21:06:52.928 4ea Compacted 4@0 + 1@1 files => 1605607 bytes
+2020/03/11-21:06:52.931 4ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/11-21:06:52.931 4ea Delete type=2 #379
+2020/03/11-21:06:52.931 4ea Delete type=2 #388
+2020/03/11-21:06:52.931 4ea Delete type=2 #386
+2020/03/11-21:06:52.931 4ea Delete type=2 #384
+2020/03/11-21:06:52.931 4ea Delete type=2 #381
+2020/03/11-22:00:50.893 4ea Level-0 table #391: started
+2020/03/11-22:00:50.902 4ea Level-0 table #391: 20093 bytes OK
+2020/03/11-22:00:50.905 4ea Delete type=0 #387
+2020/03/11-22:18:50.892 4ea Level-0 table #393: started
+2020/03/11-22:18:50.910 4ea Level-0 table #393: 92118 bytes OK
+2020/03/11-22:18:50.916 4ea Delete type=0 #390
+2020/03/11-22:22:52.312 4ea Level-0 table #395: started
+2020/03/11-22:23:21.882 4ea Level-0 table #395: 335135 bytes OK
+2020/03/11-22:23:22.069 4ea Delete type=0 #392
+2020/03/11-22:55:32.145 4ea Level-0 table #397: started
+2020/03/11-22:55:32.151 4ea Level-0 table #397: 22534 bytes OK
+2020/03/11-22:55:32.157 4ea Delete type=0 #394
+2020/03/11-22:55:32.157 4ea Compacting 4@0 + 1@1 files
+2020/03/11-22:55:32.333 4ea Generated table #398@0: 729 keys, 1611077 bytes
+2020/03/11-22:55:32.333 4ea Compacted 4@0 + 1@1 files => 1611077 bytes
+2020/03/11-22:55:32.336 4ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/11-22:55:32.337 4ea Delete type=2 #389
+2020/03/11-22:55:32.337 4ea Delete type=2 #391
+2020/03/11-22:55:32.337 4ea Delete type=2 #393
+2020/03/11-22:55:32.337 4ea Delete type=2 #395
+2020/03/11-22:55:32.337 4ea Delete type=2 #397
+2020/03/11-23:45:50.892 4ea Level-0 table #400: started
+2020/03/11-23:45:50.899 4ea Level-0 table #400: 23913 bytes OK
+2020/03/11-23:45:50.904 4ea Delete type=0 #396

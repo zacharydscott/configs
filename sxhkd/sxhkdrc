@@ -1,6 +1,6 @@
 ### SXHKD configuration
 
-###
+################################################################
 # I'm trying a little theming with the commands here.
 # note quite a full vim level of descriptive commands,
 # but it still should have some consistency and
@@ -19,7 +19,7 @@
 # 	as restart bspwm or power down
 #
 # qwer - reserved for system commands
-###
+################################################################
 
 # quit/restart bspwm
 super + alt  + {q,r}
@@ -36,6 +36,10 @@ super + {x,c}
 # use dmenu as an app launcher
 super + space
 	~/.config/sxhkd/app-launcher.sh
+
+# enter custom bsp cli, for now just executing arbitrary bash
+super + Return
+	echo "" | dmeu | exec &
 
 # Simple program shortcuts
 super + t
@@ -57,10 +61,14 @@ super + {h,j,k,l}
 # vim like bindings for swapping nodes current node for a given direction
 super + shift + {h,j,k,l}
 	bspc node --swap {west,south,north,east}
-s
+
 # rotate the current node with it's sibling
 super + {m,n}
 	bspc node @parent -R {90,-90}
+
+# rotate the entire desktop
+super + shift + {m,n}
+	bspc node @/ -R {90,-90}
 
 # pull current  node into floating mode
 super + f
@@ -108,3 +116,13 @@ super + Tab
 # I know it's cheating but it's fine.
 super + {1,2,3,4,5,6,7,8,9,0}
 	bspc desktop {1,2,3,4,5,6,7,8,9,0} --focus
+
+## I/O
+
+# adjust sound
+super + {minus,equal}
+	amixer -Mq set Master 2%{-,+}
+
+# mute
+super + alt + m
+	pactl set-sink-mute 0 toggle
