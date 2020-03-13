@@ -1,1 +1,12 @@
-{}
+{
+  "commands": {
+    "%2Fhome%2Fmain": [
+      ":CocConf"
+    ]
+  },
+  "location": {
+    "%2Fhome%2Fmain%2Fprog%2Fsample": [
+      "ooooo"
+    ]
+  }
+}

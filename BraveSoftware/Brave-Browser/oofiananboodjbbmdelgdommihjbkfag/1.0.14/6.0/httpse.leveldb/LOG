@@ -1,7 +1,7 @@
-2020/03/11-20:53:48.595 24b Recovering log #3
-2020/03/11-20:53:48.816 24b Level-0 table #5: started
-2020/03/11-20:53:49.168 24b Level-0 table #5: 2771043 bytes OK
-2020/03/11-20:53:49.174 24b Recovering log #65
-2020/03/11-20:53:49.238 24b Delete type=0 #65
-2020/03/11-20:53:49.238 24b Delete type=0 #3
-2020/03/11-20:53:49.238 24b Delete type=3 #2
+2020/03/12-23:13:05.474 2f5 Recovering log #3
+2020/03/12-23:13:05.660 2f5 Level-0 table #5: started
+2020/03/12-23:13:06.038 2f5 Level-0 table #5: 2771043 bytes OK
+2020/03/12-23:13:06.044 2f5 Recovering log #68
+2020/03/12-23:13:06.131 2f5 Delete type=0 #68
+2020/03/12-23:13:06.131 2f5 Delete type=0 #3
+2020/03/12-23:13:06.131 2f5 Delete type=3 #2

@@ -1,9 +1,22 @@
-2020/03/11-04:19:56.765 3a63 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2020/03/11-04:19:56.765 3a63 Recovering log #666
-2020/03/11-04:19:56.765 3a63 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000666.log 
-2020/03/11-05:01:56.601 3c58 Level-0 table #671: started
-2020/03/11-05:01:56.613 3c58 Level-0 table #671: 20354 bytes OK
-2020/03/11-05:01:56.617 3c58 Delete type=0 #666
-2020/03/11-05:04:17.578 3c58 Level-0 table #673: started
-2020/03/11-05:04:17.598 3c58 Level-0 table #673: 16966 bytes OK
-2020/03/11-05:04:17.602 3c58 Delete type=0 #670
+2020/03/12-03:33:10.328 1009 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2020/03/12-03:33:10.328 1009 Recovering log #709
+2020/03/12-03:33:10.328 1009 Level-0 table #712: started
+2020/03/12-03:33:10.345 1009 Level-0 table #712: 17046 bytes OK
+2020/03/12-03:33:10.345 1009 Recovering log #712
+2020/03/12-03:33:10.345 1009 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000712.log 
+2020/03/12-03:33:10.361 1009 Delete type=0 #709
+2020/03/12-03:37:53.495 121f Level-0 table #714: started
+2020/03/12-03:37:53.514 121f Level-0 table #714: 20530 bytes OK
+2020/03/12-03:37:53.518 121f Delete type=0 #712
+2020/03/12-03:37:53.518 121f Compacting 4@0 + 1@1 files
+2020/03/12-03:37:53.545 121f Generated table #715@0: 8429 keys, 157244 bytes
+2020/03/12-03:37:53.545 121f Compacted 4@0 + 1@1 files => 157244 bytes
+2020/03/12-03:37:53.549 121f compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/12-03:37:53.549 121f Delete type=2 #708
+2020/03/12-03:37:53.550 121f Delete type=2 #712
+2020/03/12-03:37:53.550 121f Delete type=2 #714
+2020/03/12-03:37:53.550 121f Delete type=2 #706
+2020/03/12-03:37:53.550 121f Delete type=2 #710
+2020/03/12-03:58:56.498 121f Level-0 table #717: started
+2020/03/12-03:58:56.503 121f Level-0 table #717: 16859 bytes OK
+2020/03/12-03:58:56.506 121f Delete type=0 #713

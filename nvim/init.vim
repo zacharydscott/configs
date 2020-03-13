@@ -7,8 +7,11 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'morhetz/gruvbox'
 "Plug 'lervag/vimtex'
-Plug 'HerringtonDarkholme/yats.vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'junegunn/fzf', { 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'
+Plug 'mileszs/ack.vim'
+Plug 'HerringtonDarkholme/yats.vim'
 call plug#end()
 
 
@@ -30,8 +33,23 @@ nnoremap <C-l> <C-w>l
 nnoremap > >>
 nnoremap < <<
 
-" nerd tree
+" tab navigation
+nnoremap <Leader>j gt
+nnoremap <Leader>k gT
+
+"" NERD Tree
+" focus nerd tree
+nnoremap <Leader>nf :NERDTreeFind<CR>
+
 map <C-n> :NERDTreeToggle<CR> 
+ 
+""lets
+" silver searcher integration with fzf
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
+"" commands
+"reload init.vim
+command! Reload execute ":so ~/.config/nvim/init.vim"
 
 "" theme
 colorscheme gruvbox
@@ -67,25 +85,25 @@ set updatetime=300
 "
 "" don't give |ins-completion-menu| messages.
 set shortmess+=c
-"
+
 "" for gutters
 "set signcolumn=yes
 "
 "" map tab for autocompletion
-"inoremap <silent><expr> <TAB>
-"	\ pumvisible() ? "\<C-n>" :
-"	\ <SID>check_back_space() ? "\<TAB>" :
-"	\ coc#refresh()
-"inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>
-"
-"" to be frank I'm not sure...
-"function! s:check_back_space() abort
-"	let col = col('.') -1
-"	return !col || getline('.')[col - 1]=~# '\s'
-"endfunction
-"
-"inoremap <silent><expr> <c-space> coc#refresh()
-"
+inoremap <silent><expr> <TAB> 
+	\ pumvisible() ? "\<C-n>" :
+	\ <SID>check_back_space() ? "\<TAB>" :
+	\ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+" to be frank I'm not sure...
+function! s:check_back_space() abort
+	let col = col('.') -1
+	return !col || getline('.')[col - 1]=~# '\s'
+endfunction
+
+inoremap <silent><expr> <c-space> coc#refresh()
+
 ""just copy/pasted
 "" Use <cr> to confirm completion, `<C-g>u` means break undo chain at current
 "" position. Coc only does snippet and additional edit on confirm.
@@ -97,8 +115,8 @@ set shortmess+=c
 "endif
 "
 "" Use `[g` and `]g` to navigate diagnostics
-"nmap <silent> [g <Plug>(coc-diagnostic-prev)
-"nmap <silent> ]g <Plug>(coc-diagnostic-next)
+nmap <silent> <Leader>E <Plug>(coc-diagnostic-prev)
+nmap <silent> <Leader>e <Plug>(coc-diagnostic-next)
 "
 "" GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
@@ -121,11 +139,13 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 "autocmd CursorHold * silent call CocActionAsync('highlight')
 "
 "" Symbol renaming.
-nmap <leaer>r <Plug>(coc-rename)
+nmap <F2>  <Plug>(coc-rename)
 "
 "" Formatting selected code.
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader>ff  <Plug>(coc-format)
+nmap <leader>ff  <Plug>(coc-format)
 "
 "augroup mygroup
 "  autocmd!
