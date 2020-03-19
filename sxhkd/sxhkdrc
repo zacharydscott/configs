@@ -10,7 +10,7 @@
 # super - used for for all bspc based hotkeys. This 
 # 	is to prevent overlap with window programs.
 #
-# ctrl - "desktop mode" attempts to mirror the hotkeys
+# ctrl - "desktop mode" to mirror the hotkeys
 # 	for nodes with the alt key. I'm cheating
 # 	for the super + # commands, as it increases
 # 	ease of use significantly.
@@ -28,6 +28,12 @@ super + alt  + {q,r}
 # Power down or restart the system
 super + alt + e
 	power-down-menu
+
+# ("Zen" Mode) Set bottom padding for when hands are in front of the monitor
+# Terrible for hands by the way... me. Also it's not really zen, but I 
+# haven't mapped 'z' yet.
+super + z
+	~/.config/sxhkd/zen.sh
 
 #close and kill
 super + {x,c}
@@ -50,7 +56,11 @@ super + b
 
 # open up wallpapers
 super + alt + i
-	sxiv --focust ~/pictures/wallpapers*
+	sxiv -tf ~/pictures/wallpaper/*
+
+# open list of pdfs
+super + alt + p
+	cd ~/pdf && ls | rofi -dmenu | xargs ~/.config/sxhkd/pdf.sh
 
 ## NODE_COMMANDS
 
@@ -122,6 +132,22 @@ super + {1,2,3,4,5,6,7,8,9,0}
 # adjust sound
 super + {minus,equal}
 	amixer -Mq set Master 2%{-,+}
+
+# max/min volume
+super + shift + {minus,equal}
+	amixer -Mq set Master {0,100}
+
+# adjust screen brightness 
+super + bracket{left,right}
+	light {-U,-A} 5
+
+# Max/min brightness
+# super + shift + {1,2,3,4,5,6,7,8,9,0}
+# 	light -S    {0,11,22,33,44,55,66,77,88,100}
+
+
+super + shift + bracket{left,right}
+	light -S {0,100}
 
 # mute
 super + alt + m

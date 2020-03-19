@@ -1,1 +1,3 @@
-2020/03/02-01:12:30.159 10674 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/14-22:36:46.945 89eb Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/14-22:36:46.945 89eb Recovering log #3
+2020/03/14-22:36:46.946 89eb Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/000003.log 

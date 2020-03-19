@@ -57,7 +57,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = mpd
-modules-right = xbacklight pulseaudio memory cpu wlan eth battery date powermenu
+modules-right = intel-brightness pulseaudio memory cpu wlan eth battery date powermenu
 
 tray-position = right
 tray-padding = 0
@@ -140,6 +140,13 @@ icon-next = 
 
 label-song-maxlen = 25
 label-song-ellipsis = true
+
+[module/intel-brightness]
+type = custom/script
+exec = awk '{printf "%2.0f",$1/44.37}' < /sys/class/backlight/intel_backlight/brightness
+interval = 5
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #4bffdc
 
 [module/xbacklight]
 type = internal/xbacklight

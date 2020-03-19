@@ -1,5 +1,6 @@
 {
 	"suggest.noselect": false,
 	"typescript.suggest.autoImports": true,
-	"suggest.autoTrigger": "trigger"
+	"suggest.autoTrigger": "trigger",
+	"pairs.enableEnter": false
 }

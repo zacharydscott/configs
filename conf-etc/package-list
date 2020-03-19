@@ -13,9 +13,9 @@ brave-bin 1:1.4.95-1
 bspwm 0.9.9-1
 clang 9.0.1-1
 cmake 3.16.4-1
+cronie 1.5.5-1
 dialog 1:1.3_20191210-1
 fakeroot 1.24-2
-fcron 3.2.1-4
 feh 3.3-2
 file 5.38-3
 findutils 4.7.0-2

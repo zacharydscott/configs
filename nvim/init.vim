@@ -1,3 +1,12 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""
+" This is a "comfy IDE" config. Obviously I have
+" a bias toward typescript, so this coc-vim
+" is pefrect for getting that sweet-sweet 
+" vscode functionality. Actually, I find
+" coc to be even more powerful.
+"""""""""""""""""""""""""""""""""""""""""""""""""
+
+
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdtree'
@@ -95,6 +104,7 @@ inoremap <silent><expr> <TAB>
 	\ <SID>check_back_space() ? "\<TAB>" :
 	\ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 " to be frank I'm not sure...
 function! s:check_back_space() abort

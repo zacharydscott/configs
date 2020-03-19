@@ -7,12 +7,29 @@ feh --bg-scale ~/pictures/wallpapers/current-wallpaper
 killall "sxhkd"
 sxhkd -c ~/.config/sxhkd/sxhkdrc &
 
+killall "polybar"
+polybar bspwm &
+
 bspc monitor LVDS-1 -d 1 2 3 4 5 6 7 8 9 0 
 
-bspc config border_width 1
-bspc config normal_border_color "#0c0c59"
-bspc config focused_border_color "#6565F5"
-bspc config window_gap 8
+bspc config border_width 2
+bspc config window_gap 0
+bspc config normal_border_color "#040430"
+bspc config focused_border_color "#4555FF"
+bspc config single_monocle true
+bspc config borderless_monocle true
+
+
+# shouldn't have a dep like this... will work on it
+ISZEN= $(<~/.config/sxhkd/.is-zenr
+if [ "$ISZEN" = "true"]; then 
+	bspc config bottom_padding 130
+	bspc config window_gap 0
+else
+	bspc config window_gap 0
+	bspc config bottom_padding 0 # not needed but consistent
+fi
+
 
 # start polybar
 killall "polybar"
