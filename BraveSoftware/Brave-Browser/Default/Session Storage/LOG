@@ -1,15 +1,6 @@
-2020/03/19-16:06:36.390 f08 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2020/03/19-16:06:36.390 f08 Recovering log #964
-2020/03/19-16:06:36.391 f08 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000964.log 
-2020/03/19-16:29:16.386 1b3f Level-0 table #968: started
-2020/03/19-16:29:16.397 1b3f Level-0 table #968: 18297 bytes OK
-2020/03/19-16:29:16.401 1b3f Delete type=0 #964
-2020/03/19-16:29:16.401 1b3f Compacting 4@0 + 1@1 files
-2020/03/19-16:29:16.432 1b3f Generated table #969@0: 11702 keys, 214125 bytes
-2020/03/19-16:29:16.432 1b3f Compacted 4@0 + 1@1 files => 214125 bytes
-2020/03/19-16:29:16.435 1b3f compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/03/19-16:29:16.436 1b3f Delete type=2 #965
-2020/03/19-16:29:16.436 1b3f Delete type=2 #968
-2020/03/19-16:29:16.436 1b3f Delete type=2 #961
-2020/03/19-16:29:16.436 1b3f Delete type=2 #963
-2020/03/19-16:29:16.436 1b3f Delete type=2 #959
+2020/03/28-08:37:45.866 2442 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2020/03/28-08:37:45.867 2442 Recovering log #1157
+2020/03/28-08:37:45.867 2442 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/001157.log 
+2020/03/28-08:38:09.140 2667 Level-0 table #1161: started
+2020/03/28-08:38:16.934 2667 Level-0 table #1161: 16641 bytes OK
+2020/03/28-08:38:17.053 2667 Delete type=0 #1157

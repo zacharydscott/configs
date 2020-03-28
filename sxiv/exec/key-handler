@@ -5,6 +5,6 @@ do
 	echo "$file"
 	# set wallpaper and save it as current wallpaper so it persists
 	case "$1" in 
-	"C-w") feh --bg-scale "$file" && ln -sf $file ~/pictures/wallpapers/current-wallpaper ;;
+	"C-w") feh --bg-scale "$file" && ln -sf $file ~/pictures/wallpaper/current-wallpaper ;;
 	esac
 done

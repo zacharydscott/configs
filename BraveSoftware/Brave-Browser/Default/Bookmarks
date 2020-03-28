@@ -1,5 +1,5 @@
 {
-   "checksum": "2bbf9ac364ea0ae31012e85eaa02918f",
+   "checksum": "9c6c49797c36ce05b06c5cc9f293cba1",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -9,9 +9,23 @@
             "name": "Your Repositories",
             "type": "url",
             "url": "https://github.com/zacharydscott?tab=repositories"
+         }, {
+            "date_added": "13229272449239897",
+            "guid": "511185f7-1a52-4680-b3fb-2a84fac16553",
+            "id": "7",
+            "name": "Computer Parts, PC Components, Laptop Computers, LED LCD TV, Digital Cameras and more - Newegg.com",
+            "type": "url",
+            "url": "https://www.newegg.com/"
+         }, {
+            "date_added": "13229771669861375",
+            "guid": "e403c68c-275f-4884-bb0e-2407164efc35",
+            "id": "9",
+            "name": "(133) wolfgang's channel - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/results?search_query=wolfgang%27s+channel"
          } ],
          "date_added": "13228365188620705",
-         "date_modified": "13228366516083864",
+         "date_modified": "13229771669861375",
          "guid": "00000000-0000-4000-A000-000000000002",
          "id": "1",
          "name": "Bookmarks",

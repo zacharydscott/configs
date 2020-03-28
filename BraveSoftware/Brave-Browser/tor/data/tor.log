@@ -1,48 +1,18 @@
-Mar 17 00:50:30.000 [notice] Tor 0.3.5.8 opening new log file.
-Mar 17 00:50:30.129 [notice] Tor 0.3.5.8 running on Linux with Libevent 2.1.9-beta, OpenSSL 1.0.2q, Zlib 1.2.11, Liblzma N/A, and Libzstd N/A.
-Mar 17 00:50:30.131 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
-Mar 17 00:50:30.131 [notice] Configuration file "/nonexistent" not present, using reasonable defaults.
-Mar 17 00:50:30.167 [notice] Opening Socks listener on 127.0.0.1:9390
-Mar 17 00:50:30.167 [notice] Opened Socks listener on 127.0.0.1:9390
-Mar 17 00:50:30.167 [notice] Opening Control listener on 127.0.0.1:0
-Mar 17 00:50:30.167 [notice] Control listener listening on port 36041.
-Mar 17 00:50:30.167 [notice] Opened Control listener on 127.0.0.1:0
-Mar 17 00:50:30.000 [notice] Bootstrapped 0%: Starting
-Mar 17 00:50:30.000 [notice] Starting with guard context "default"
-Mar 17 00:50:30.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 17 00:50:31.000 [notice] Bootstrapped 5%: Connecting to directory server
-Mar 17 00:50:31.000 [notice] Bootstrapped 10%: Finishing handshake with directory server
-Mar 17 00:50:31.000 [notice] Bootstrapped 15%: Establishing an encrypted directory connection
-Mar 17 00:50:31.000 [notice] Bootstrapped 20%: Asking for networkstatus consensus
-Mar 17 00:50:31.000 [notice] Bootstrapped 25%: Loading networkstatus consensus
-Mar 17 00:50:32.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
-Mar 17 00:50:32.000 [notice] Bootstrapped 40%: Loading authority key certs
-Mar 17 00:50:33.000 [notice] The current consensus has no exit nodes. Tor can only build internal paths, such as paths to onion services.
-Mar 17 00:50:33.000 [notice] Bootstrapped 45%: Asking for relay descriptors for internal paths
-Mar 17 00:50:33.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 0/6487, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of end bw (no exits in consensus, using mid) = 0% of path bw.)
-Mar 17 00:50:34.000 [notice] Bootstrapped 50%: Loading relay descriptors for internal paths
-Mar 17 00:50:34.000 [notice] The current consensus contains exit nodes. Tor can build exit and internal paths.
-Mar 17 00:50:35.000 [notice] Bootstrapped 56%: Loading relay descriptors
-Mar 17 00:50:35.000 [notice] Bootstrapped 65%: Loading relay descriptors
-Mar 17 00:50:35.000 [notice] Bootstrapped 70%: Loading relay descriptors
-Mar 17 00:50:36.000 [notice] Bootstrapped 78%: Loading relay descriptors
-Mar 17 00:50:36.000 [notice] Bootstrapped 80%: Connecting to the Tor network
-Mar 17 00:50:37.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
-Mar 17 00:50:37.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
-Mar 17 00:50:38.000 [notice] Bootstrapped 100%: Done
-Mar 17 00:50:39.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:50:42.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:50:51.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:51:16.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:51:30.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:51:59.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:52:31.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:52:55.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:53:28.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:54:27.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:56:33.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:57:55.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 00:58:39.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 04:21:49.000 [notice] Your system clock just jumped 12048 seconds forward; assuming established circuits no longer work.
-Mar 17 04:24:21.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
-Mar 17 04:28:39.000 [notice] Have tried resolving or connecting to address '[scrubbed]' at 3 different places. Giving up.
+Mar 27 04:27:42.000 [notice] Tor 0.3.5.10 opening new log file.
+Mar 27 04:27:42.356 [notice] Tor 0.3.5.10 running on Linux with Libevent 2.1.9-beta, OpenSSL 1.0.2q, Zlib 1.2.11, Liblzma N/A, and Libzstd N/A.
+Mar 27 04:27:42.356 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Mar 27 04:27:42.356 [notice] Configuration file "/nonexistent" not present, using reasonable defaults.
+Mar 27 04:27:42.361 [notice] Opening Socks listener on 127.0.0.1:9390
+Mar 27 04:27:42.361 [notice] Opened Socks listener on 127.0.0.1:9390
+Mar 27 04:27:42.361 [notice] Opening Control listener on 127.0.0.1:0
+Mar 27 04:27:42.361 [notice] Control listener listening on port 40349.
+Mar 27 04:27:42.361 [notice] Opened Control listener on 127.0.0.1:40349
+Mar 27 04:27:42.000 [notice] Bootstrapped 0%: Starting
+Mar 27 04:27:42.000 [notice] Starting with guard context "default"
+Mar 27 04:27:43.000 [notice] Bootstrapped 5%: Connecting to directory server
+Mar 27 04:27:43.000 [notice] Bootstrapped 10%: Finishing handshake with directory server
+Mar 27 04:27:43.000 [notice] Bootstrapped 80%: Connecting to the Tor network
+Mar 27 04:27:43.000 [notice] Bootstrapped 85%: Finishing handshake with first hop
+Mar 27 04:27:43.000 [notice] Bootstrapped 90%: Establishing a Tor circuit
+Mar 27 04:27:44.000 [notice] Bootstrapped 100%: Done
+Mar 27 04:30:25.000 [notice] Catching signal TERM, exiting cleanly.

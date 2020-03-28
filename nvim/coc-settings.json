@@ -1,6 +1,13 @@
 {
-	"suggest.noselect": false,
-	"typescript.suggest.autoImports": true,
-	"suggest.autoTrigger": "trigger",
-	"pairs.enableEnter": false
+  "suggest.noselect": false,
+  "typescript.suggest.autoImports": true,
+  "suggest.autoTrigger": "trigger",
+  "pairs.enableEnter": false,
+  "languageserver": {
+    "clangd": {
+      "command": "clangd",
+      "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+      "filetypes": ["c", "cpp", "objc", "objcpp"]
+    }
+  }
 }
