@@ -1,3 +1,9 @@
 2020/03/28-08:37:45.617 241b Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/MANIFEST-000001
 2020/03/28-08:37:45.617 241b Recovering log #9
 2020/03/28-08:37:45.617 241b Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000009.log 
+2020/03/28-20:04:05.343 6daf Compacting 2@0 + 0@1 files
+2020/03/28-20:04:05.348 6daf Generated table #10@0: 231 keys, 13553 bytes
+2020/03/28-20:04:05.348 6daf Compacted 2@0 + 0@1 files => 13553 bytes
+2020/03/28-20:04:05.352 6daf compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/03/28-20:04:05.352 6daf Delete type=2 #7
+2020/03/28-20:04:05.352 6daf Delete type=2 #4
