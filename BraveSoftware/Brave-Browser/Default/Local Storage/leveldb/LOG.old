@@ -1,17 +1,57 @@
-2020/03/28-08:33:06.946 202a Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/28-08:33:06.946 202a Recovering log #873
-2020/03/28-08:33:06.948 202a Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000873.log 
-2020/03/28-08:34:25.810 22c9 Level-0 table #877: started
-2020/03/28-08:34:25.816 22c9 Level-0 table #877: 22172 bytes OK
-2020/03/28-08:34:25.819 22c9 Delete type=0 #873
-2020/03/28-08:34:25.820 22c9 Compacting 4@0 + 2@1 files
-2020/03/28-08:34:26.120 22c9 Generated table #878@0: 2345 keys, 2111936 bytes
-2020/03/28-08:34:26.150 22c9 Generated table #879@0: 165 keys, 312472 bytes
-2020/03/28-08:34:26.150 22c9 Compacted 4@0 + 2@1 files => 2424408 bytes
-2020/03/28-08:34:26.157 22c9 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/03/28-08:34:26.157 22c9 Delete type=2 #869
-2020/03/28-08:34:26.157 22c9 Delete type=2 #866
-2020/03/28-08:34:26.157 22c9 Delete type=2 #877
-2020/03/28-08:34:26.157 22c9 Delete type=2 #874
-2020/03/28-08:34:26.157 22c9 Delete type=2 #865
-2020/03/28-08:34:26.157 22c9 Delete type=2 #871
+2020/03/30-17:26:10.521 34f7 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/30-17:26:10.521 34f7 Recovering log #1053
+2020/03/30-17:26:10.521 34f7 Level-0 table #1058: started
+2020/03/30-17:26:10.667 34f7 Level-0 table #1058: 13807 bytes OK
+2020/03/30-17:26:12.297 34f7 Delete type=0 #1053
+2020/03/30-17:32:20.709 376e Level-0 table #1061: started
+2020/03/30-17:32:20.726 376e Level-0 table #1061: 17101 bytes OK
+2020/03/30-17:32:20.736 376e Delete type=0 #1059
+2020/03/30-17:34:20.711 376e Level-0 table #1063: started
+2020/03/30-17:34:21.342 376e Level-0 table #1063: 13509 bytes OK
+2020/03/30-17:34:22.189 376e Delete type=0 #1060
+2020/03/30-17:42:20.710 376e Level-0 table #1065: started
+2020/03/30-17:42:20.716 376e Level-0 table #1065: 15448 bytes OK
+2020/03/30-17:42:20.721 376e Delete type=0 #1062
+2020/03/30-17:42:20.721 376e Compacting 4@0 + 2@1 files
+2020/03/30-17:42:20.829 376e Generated table #1066@0: 2736 keys, 2112773 bytes
+2020/03/30-17:42:20.851 376e Generated table #1067@0: 193 keys, 315252 bytes
+2020/03/30-17:42:20.851 376e Compacted 4@0 + 2@1 files => 2428025 bytes
+2020/03/30-17:42:20.855 376e compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/03/30-17:42:20.855 376e Delete type=2 #1065
+2020/03/30-17:42:20.855 376e Delete type=2 #1055
+2020/03/30-17:42:20.855 376e Delete type=2 #1061
+2020/03/30-17:42:20.855 376e Delete type=2 #1058
+2020/03/30-17:42:20.855 376e Delete type=2 #1056
+2020/03/30-17:42:20.856 376e Delete type=2 #1063
+2020/03/30-17:52:08.361 376e Level-0 table #1069: started
+2020/03/30-17:52:09.749 376e Level-0 table #1069: 15416 bytes OK
+2020/03/30-17:52:09.791 376e Delete type=0 #1064
+2020/03/30-17:52:38.292 376e Level-0 table #1071: started
+2020/03/30-17:52:38.301 376e Level-0 table #1071: 12248 bytes OK
+2020/03/30-17:52:38.309 376e Delete type=0 #1068
+2020/03/30-17:54:01.576 376e Level-0 table #1073: started
+2020/03/30-17:54:01.582 376e Level-0 table #1073: 12293 bytes OK
+2020/03/30-17:54:01.590 376e Delete type=0 #1070
+2020/03/30-18:42:11.204 376e Level-0 table #1075: started
+2020/03/30-18:42:11.227 376e Level-0 table #1075: 17068 bytes OK
+2020/03/30-18:42:11.257 376e Delete type=0 #1072
+2020/03/30-18:42:11.355 376e Compacting 4@0 + 2@1 files
+2020/03/30-18:42:11.522 376e Generated table #1076@0: 2846 keys, 2115742 bytes
+2020/03/30-18:42:11.556 376e Generated table #1077@0: 193 keys, 315278 bytes
+2020/03/30-18:42:11.556 376e Compacted 4@0 + 2@1 files => 2431020 bytes
+2020/03/30-18:42:11.560 376e compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/03/30-18:42:11.561 376e Delete type=2 #1067
+2020/03/30-18:42:11.561 376e Delete type=2 #1073
+2020/03/30-18:42:11.561 376e Delete type=2 #1071
+2020/03/30-18:42:11.561 376e Delete type=2 #1069
+2020/03/30-18:42:11.561 376e Delete type=2 #1075
+2020/03/30-18:42:11.561 376e Delete type=2 #1066
+2020/03/30-20:34:20.710 376e Level-0 table #1079: started
+2020/03/30-20:34:20.716 376e Level-0 table #1079: 14124 bytes OK
+2020/03/30-20:34:20.720 376e Delete type=0 #1074
+2020/03/30-21:14:20.710 376e Level-0 table #1081: started
+2020/03/30-21:14:20.720 376e Level-0 table #1081: 11400 bytes OK
+2020/03/30-21:14:20.724 376e Delete type=0 #1078
+2020/03/30-22:04:20.709 376e Level-0 table #1083: started
+2020/03/30-22:04:20.714 376e Level-0 table #1083: 10860 bytes OK
+2020/03/30-22:04:20.718 376e Delete type=0 #1080
