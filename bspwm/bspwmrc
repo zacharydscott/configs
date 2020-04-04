@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Set the keyboard layout
+setxkbmap -layout us -variant coding 
+
 # establish tmp dir for sxhkd
 test -z /tmp/sxhkd && mkdir /tmp/sxhkd
 

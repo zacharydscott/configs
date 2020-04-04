@@ -1,57 +1,45 @@
-2020/03/30-17:26:10.521 34f7 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/30-17:26:10.521 34f7 Recovering log #1053
-2020/03/30-17:26:10.521 34f7 Level-0 table #1058: started
-2020/03/30-17:26:10.667 34f7 Level-0 table #1058: 13807 bytes OK
-2020/03/30-17:26:12.297 34f7 Delete type=0 #1053
-2020/03/30-17:32:20.709 376e Level-0 table #1061: started
-2020/03/30-17:32:20.726 376e Level-0 table #1061: 17101 bytes OK
-2020/03/30-17:32:20.736 376e Delete type=0 #1059
-2020/03/30-17:34:20.711 376e Level-0 table #1063: started
-2020/03/30-17:34:21.342 376e Level-0 table #1063: 13509 bytes OK
-2020/03/30-17:34:22.189 376e Delete type=0 #1060
-2020/03/30-17:42:20.710 376e Level-0 table #1065: started
-2020/03/30-17:42:20.716 376e Level-0 table #1065: 15448 bytes OK
-2020/03/30-17:42:20.721 376e Delete type=0 #1062
-2020/03/30-17:42:20.721 376e Compacting 4@0 + 2@1 files
-2020/03/30-17:42:20.829 376e Generated table #1066@0: 2736 keys, 2112773 bytes
-2020/03/30-17:42:20.851 376e Generated table #1067@0: 193 keys, 315252 bytes
-2020/03/30-17:42:20.851 376e Compacted 4@0 + 2@1 files => 2428025 bytes
-2020/03/30-17:42:20.855 376e compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/03/30-17:42:20.855 376e Delete type=2 #1065
-2020/03/30-17:42:20.855 376e Delete type=2 #1055
-2020/03/30-17:42:20.855 376e Delete type=2 #1061
-2020/03/30-17:42:20.855 376e Delete type=2 #1058
-2020/03/30-17:42:20.855 376e Delete type=2 #1056
-2020/03/30-17:42:20.856 376e Delete type=2 #1063
-2020/03/30-17:52:08.361 376e Level-0 table #1069: started
-2020/03/30-17:52:09.749 376e Level-0 table #1069: 15416 bytes OK
-2020/03/30-17:52:09.791 376e Delete type=0 #1064
-2020/03/30-17:52:38.292 376e Level-0 table #1071: started
-2020/03/30-17:52:38.301 376e Level-0 table #1071: 12248 bytes OK
-2020/03/30-17:52:38.309 376e Delete type=0 #1068
-2020/03/30-17:54:01.576 376e Level-0 table #1073: started
-2020/03/30-17:54:01.582 376e Level-0 table #1073: 12293 bytes OK
-2020/03/30-17:54:01.590 376e Delete type=0 #1070
-2020/03/30-18:42:11.204 376e Level-0 table #1075: started
-2020/03/30-18:42:11.227 376e Level-0 table #1075: 17068 bytes OK
-2020/03/30-18:42:11.257 376e Delete type=0 #1072
-2020/03/30-18:42:11.355 376e Compacting 4@0 + 2@1 files
-2020/03/30-18:42:11.522 376e Generated table #1076@0: 2846 keys, 2115742 bytes
-2020/03/30-18:42:11.556 376e Generated table #1077@0: 193 keys, 315278 bytes
-2020/03/30-18:42:11.556 376e Compacted 4@0 + 2@1 files => 2431020 bytes
-2020/03/30-18:42:11.560 376e compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/03/30-18:42:11.561 376e Delete type=2 #1067
-2020/03/30-18:42:11.561 376e Delete type=2 #1073
-2020/03/30-18:42:11.561 376e Delete type=2 #1071
-2020/03/30-18:42:11.561 376e Delete type=2 #1069
-2020/03/30-18:42:11.561 376e Delete type=2 #1075
-2020/03/30-18:42:11.561 376e Delete type=2 #1066
-2020/03/30-20:34:20.710 376e Level-0 table #1079: started
-2020/03/30-20:34:20.716 376e Level-0 table #1079: 14124 bytes OK
-2020/03/30-20:34:20.720 376e Delete type=0 #1074
-2020/03/30-21:14:20.710 376e Level-0 table #1081: started
-2020/03/30-21:14:20.720 376e Level-0 table #1081: 11400 bytes OK
-2020/03/30-21:14:20.724 376e Delete type=0 #1078
-2020/03/30-22:04:20.709 376e Level-0 table #1083: started
-2020/03/30-22:04:20.714 376e Level-0 table #1083: 10860 bytes OK
-2020/03/30-22:04:20.718 376e Delete type=0 #1080
+2020/04/03-13:25:14.054 25bb7 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/04/03-13:25:14.055 25bb7 Recovering log #1268
+2020/04/03-13:25:14.055 25bb7 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001268.log 
+2020/04/03-13:26:12.805 25dd1 Level-0 table #1272: started
+2020/04/03-13:26:12.814 25dd1 Level-0 table #1272: 92671 bytes OK
+2020/04/03-13:26:12.818 25dd1 Delete type=0 #1268
+2020/04/03-13:42:11.098 25dd1 Level-0 table #1274: started
+2020/04/03-13:42:11.108 25dd1 Level-0 table #1274: 16078 bytes OK
+2020/04/03-13:42:11.113 25dd1 Delete type=0 #1271
+2020/04/03-13:42:11.113 25dd1 Compacting 4@0 + 2@1 files
+2020/04/03-13:42:11.230 25dd1 Generated table #1275@0: 3679 keys, 2132936 bytes
+2020/04/03-13:42:11.254 25dd1 Generated table #1276@0: 231 keys, 397292 bytes
+2020/04/03-13:42:11.254 25dd1 Compacted 4@0 + 2@1 files => 2530228 bytes
+2020/04/03-13:42:11.257 25dd1 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/03-13:42:11.257 25dd1 Delete type=2 #1264
+2020/04/03-13:42:11.257 25dd1 Delete type=2 #1269
+2020/04/03-13:42:11.257 25dd1 Delete type=2 #1265
+2020/04/03-13:42:11.257 25dd1 Delete type=2 #1272
+2020/04/03-13:42:11.257 25dd1 Delete type=2 #1267
+2020/04/03-13:42:11.257 25dd1 Delete type=2 #1274
+2020/04/03-14:06:38.414 25dd1 Level-0 table #1278: started
+2020/04/03-14:06:38.879 25dd1 Level-0 table #1278: 452015 bytes OK
+2020/04/03-14:06:39.864 25dd1 Delete type=0 #1273
+2020/04/03-14:21:57.318 25dd1 Level-0 table #1280: started
+2020/04/03-14:21:57.349 25dd1 Level-0 table #1280: 445266 bytes OK
+2020/04/03-14:21:57.354 25dd1 Delete type=0 #1277
+2020/04/03-16:06:44.119 25dd1 Level-0 table #1282: started
+2020/04/03-16:06:44.133 25dd1 Level-0 table #1282: 94162 bytes OK
+2020/04/03-16:06:44.137 25dd1 Delete type=0 #1279
+2020/04/03-16:35:03.855 25dd1 Level-0 table #1284: started
+2020/04/03-16:35:03.864 25dd1 Level-0 table #1284: 17306 bytes OK
+2020/04/03-16:35:03.870 25dd1 Delete type=0 #1281
+2020/04/03-16:35:03.870 25dd1 Compacting 4@0 + 1@1 files
+2020/04/03-16:35:04.053 25dd1 Generated table #1285@0: 3764 keys, 2103558 bytes
+2020/04/03-16:35:04.058 25dd1 Generated table #1286@0: 1 keys, 36460 bytes
+2020/04/03-16:35:04.058 25dd1 Compacted 4@0 + 1@1 files => 2140018 bytes
+2020/04/03-16:35:04.061 25dd1 compacted to: files[ 0 4 1 0 0 0 0 ]
+2020/04/03-16:35:04.061 25dd1 Delete type=2 #1282
+2020/04/03-16:35:04.061 25dd1 Delete type=2 #1275
+2020/04/03-16:35:04.061 25dd1 Delete type=2 #1280
+2020/04/03-16:35:04.061 25dd1 Delete type=2 #1278
+2020/04/03-16:35:04.061 25dd1 Delete type=2 #1284
+2020/04/03-16:36:24.915 25dd1 Level-0 table #1288: started
+2020/04/03-16:36:24.945 25dd1 Level-0 table #1288: 379136 bytes OK
+2020/04/03-16:36:24.949 25dd1 Delete type=0 #1283

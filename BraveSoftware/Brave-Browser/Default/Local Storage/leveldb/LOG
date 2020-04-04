@@ -1,182 +1,116 @@
-2020/03/31-12:50:03.496 399 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/31-12:50:03.496 399 Recovering log #1082
-2020/03/31-12:50:03.507 399 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001082.log 
-2020/03/31-12:51:28.090 5b6 Level-0 table #1086: started
-2020/03/31-12:51:28.095 5b6 Level-0 table #1086: 16386 bytes OK
-2020/03/31-12:51:28.099 5b6 Delete type=0 #1082
-2020/03/31-12:51:28.099 5b6 Compacting 4@0 + 2@1 files
-2020/03/31-12:51:28.418 5b6 Generated table #1087@0: 2870 keys, 2112879 bytes
-2020/03/31-12:51:28.460 5b6 Generated table #1088@0: 193 keys, 315218 bytes
-2020/03/31-12:51:28.461 5b6 Compacted 4@0 + 2@1 files => 2428097 bytes
-2020/03/31-12:51:28.465 5b6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/03/31-12:51:28.465 5b6 Delete type=2 #1086
-2020/03/31-12:51:28.465 5b6 Delete type=2 #1077
-2020/03/31-12:51:28.465 5b6 Delete type=2 #1076
-2020/03/31-12:51:28.465 5b6 Delete type=2 #1079
-2020/03/31-12:51:28.465 5b6 Delete type=2 #1083
-2020/03/31-12:51:28.465 5b6 Delete type=2 #1081
-2020/03/31-13:05:10.257 5b6 Level-0 table #1090: started
-2020/03/31-13:05:10.266 5b6 Level-0 table #1090: 97086 bytes OK
-2020/03/31-13:05:10.275 5b6 Delete type=0 #1085
-2020/03/31-16:16:12.527 5b6 Level-0 table #1092: started
-2020/03/31-16:16:12.540 5b6 Level-0 table #1092: 15696 bytes OK
-2020/03/31-16:16:12.544 5b6 Delete type=0 #1089
-2020/03/31-16:23:57.371 5b6 Level-0 table #1094: started
-2020/03/31-16:23:57.376 5b6 Level-0 table #1094: 9527 bytes OK
-2020/03/31-16:23:57.514 5b6 Delete type=0 #1091
-2020/03/31-17:21:06.809 5b6 Level-0 table #1096: started
-2020/03/31-17:21:06.821 5b6 Level-0 table #1096: 13693 bytes OK
-2020/03/31-17:21:06.825 5b6 Delete type=0 #1093
-2020/03/31-17:21:06.825 5b6 Compacting 4@0 + 2@1 files
-2020/03/31-17:21:06.931 5b6 Generated table #1097@0: 2961 keys, 2118396 bytes
-2020/03/31-17:21:06.955 5b6 Generated table #1098@0: 208 keys, 395784 bytes
-2020/03/31-17:21:06.955 5b6 Compacted 4@0 + 2@1 files => 2514180 bytes
-2020/03/31-17:21:06.958 5b6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/03/31-17:21:06.958 5b6 Delete type=2 #1096
-2020/03/31-17:21:06.958 5b6 Delete type=2 #1090
-2020/03/31-17:21:06.958 5b6 Delete type=2 #1088
-2020/03/31-17:21:06.958 5b6 Delete type=2 #1087
-2020/03/31-17:21:06.959 5b6 Delete type=2 #1092
-2020/03/31-17:21:06.959 5b6 Delete type=2 #1094
-2020/03/31-17:51:57.990 5b6 Level-0 table #1100: started
-2020/03/31-17:51:58.584 5b6 Level-0 table #1100: 12793 bytes OK
-2020/03/31-17:51:59.217 5b6 Delete type=0 #1095
-2020/03/31-18:56:57.990 5b6 Level-0 table #1102: started
-2020/03/31-18:56:57.997 5b6 Level-0 table #1102: 13917 bytes OK
-2020/03/31-18:56:58.001 5b6 Delete type=0 #1099
-2020/03/31-20:31:57.990 5b6 Level-0 table #1104: started
-2020/03/31-20:31:57.997 5b6 Level-0 table #1104: 11604 bytes OK
-2020/03/31-20:31:58.004 5b6 Delete type=0 #1101
-2020/03/31-21:27:57.989 5b6 Level-0 table #1106: started
-2020/03/31-21:27:57.995 5b6 Level-0 table #1106: 11497 bytes OK
-2020/03/31-21:27:57.999 5b6 Delete type=0 #1103
-2020/03/31-21:27:57.999 5b6 Compacting 4@0 + 2@1 files
-2020/03/31-21:27:58.110 5b6 Generated table #1107@0: 2968 keys, 2118720 bytes
-2020/03/31-21:27:58.139 5b6 Generated table #1108@0: 208 keys, 395770 bytes
-2020/03/31-21:27:58.139 5b6 Compacted 4@0 + 2@1 files => 2514490 bytes
-2020/03/31-21:27:58.144 5b6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/03/31-21:27:58.144 5b6 Delete type=2 #1102
-2020/03/31-21:27:58.145 5b6 Delete type=2 #1100
-2020/03/31-21:27:58.145 5b6 Delete type=2 #1106
-2020/03/31-21:27:58.145 5b6 Delete type=2 #1104
-2020/03/31-21:27:58.145 5b6 Delete type=2 #1098
-2020/03/31-21:27:58.145 5b6 Delete type=2 #1097
-2020/03/31-21:52:57.987 5b6 Level-0 table #1110: started
-2020/03/31-21:52:57.997 5b6 Level-0 table #1110: 14107 bytes OK
-2020/03/31-21:52:58.001 5b6 Delete type=0 #1105
-2020/03/31-21:54:57.990 5b6 Level-0 table #1112: started
-2020/03/31-21:54:57.997 5b6 Level-0 table #1112: 13281 bytes OK
-2020/03/31-21:54:58.001 5b6 Delete type=0 #1109
-2020/03/31-22:03:27.810 5b6 Level-0 table #1114: started
-2020/03/31-22:03:27.823 5b6 Level-0 table #1114: 95011 bytes OK
-2020/03/31-22:03:27.827 5b6 Delete type=0 #1111
-2020/03/31-22:06:57.989 5b6 Level-0 table #1116: started
-2020/03/31-22:06:57.996 5b6 Level-0 table #1116: 13180 bytes OK
-2020/03/31-22:06:58.000 5b6 Delete type=0 #1113
-2020/03/31-22:06:58.000 5b6 Compacting 4@0 + 2@1 files
-2020/03/31-22:06:58.110 5b6 Generated table #1117@0: 3003 keys, 2120814 bytes
-2020/03/31-22:06:58.134 5b6 Generated table #1118@0: 208 keys, 395785 bytes
-2020/03/31-22:06:58.134 5b6 Compacted 4@0 + 2@1 files => 2516599 bytes
-2020/03/31-22:06:58.147 5b6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/03/31-22:06:58.147 5b6 Delete type=2 #1108
-2020/03/31-22:06:58.147 5b6 Delete type=2 #1116
-2020/03/31-22:06:58.147 5b6 Delete type=2 #1112
-2020/03/31-22:06:58.147 5b6 Delete type=2 #1114
-2020/03/31-22:06:58.147 5b6 Delete type=2 #1107
-2020/03/31-22:06:58.147 5b6 Delete type=2 #1110
-2020/03/31-22:31:41.909 5b6 Level-0 table #1120: started
-2020/03/31-22:31:41.915 5b6 Level-0 table #1120: 16225 bytes OK
-2020/03/31-22:31:41.922 5b6 Delete type=0 #1115
-2020/03/31-22:32:38.644 5b6 Level-0 table #1122: started
-2020/03/31-22:32:38.653 5b6 Level-0 table #1122: 13908 bytes OK
-2020/03/31-22:32:38.657 5b6 Delete type=0 #1119
-2020/03/31-22:39:17.055 5b6 Level-0 table #1124: started
-2020/03/31-22:39:17.062 5b6 Level-0 table #1124: 10966 bytes OK
-2020/03/31-22:39:17.066 5b6 Delete type=0 #1121
-2020/03/31-22:43:32.617 5b6 Level-0 table #1126: started
-2020/03/31-22:43:32.622 5b6 Level-0 table #1126: 11393 bytes OK
-2020/03/31-22:43:32.629 5b6 Delete type=0 #1123
-2020/03/31-22:43:32.629 5b6 Compacting 4@0 + 2@1 files
-2020/03/31-22:43:32.902 5b6 Generated table #1127@0: 3087 keys, 2124137 bytes
-2020/03/31-22:43:32.924 5b6 Generated table #1128@0: 208 keys, 395776 bytes
-2020/03/31-22:43:32.924 5b6 Compacted 4@0 + 2@1 files => 2519913 bytes
-2020/03/31-22:43:32.927 5b6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/03/31-22:43:32.927 5b6 Delete type=2 #1117
-2020/03/31-22:43:32.927 5b6 Delete type=2 #1118
-2020/03/31-22:43:32.927 5b6 Delete type=2 #1124
-2020/03/31-22:43:32.927 5b6 Delete type=2 #1122
-2020/03/31-22:43:32.927 5b6 Delete type=2 #1126
-2020/03/31-22:43:32.927 5b6 Delete type=2 #1120
-2020/03/31-22:44:25.774 5b6 Level-0 table #1130: started
-2020/03/31-22:44:25.779 5b6 Level-0 table #1130: 10883 bytes OK
-2020/03/31-22:44:25.782 5b6 Delete type=0 #1125
-2020/03/31-22:44:57.988 5b6 Level-0 table #1132: started
-2020/03/31-22:44:58.001 5b6 Level-0 table #1132: 14772 bytes OK
-2020/03/31-22:44:58.004 5b6 Delete type=0 #1129
-2020/03/31-22:45:32.910 5b6 Level-0 table #1134: started
-2020/03/31-22:45:32.919 5b6 Level-0 table #1134: 9153 bytes OK
-2020/03/31-22:45:32.927 5b6 Delete type=0 #1131
-2020/03/31-22:45:53.733 5b6 Level-0 table #1136: started
-2020/03/31-22:45:57.373 5b6 Level-0 table #1136: 8203 bytes OK
-2020/03/31-22:45:57.375 77e5 Current memtable full; waiting...
-2020/03/31-22:45:57.455 5b6 Delete type=0 #1133
-2020/03/31-22:45:57.455 5b6 Compacting 4@0 + 2@1 files
-2020/03/31-22:45:57.456 5b6 Level-0 table #1138: started
-2020/03/31-22:45:57.510 5b6 Level-0 table #1138: 8363 bytes OK
-2020/03/31-22:45:57.599 5b6 Delete type=0 #1135
-2020/03/31-22:45:57.990 5b6 Generated table #1139@0: 3097 keys, 2125693 bytes
-2020/03/31-22:45:58.057 5b6 Generated table #1140@0: 213 keys, 397325 bytes
-2020/03/31-22:45:58.057 5b6 Compacted 4@0 + 2@1 files => 2523018 bytes
-2020/03/31-22:45:58.073 5b6 compacted to: files[ 1 3 1 0 0 0 0 ]
-2020/03/31-22:45:58.073 5b6 Delete type=2 #1127
-2020/03/31-22:45:58.073 5b6 Delete type=2 #1136
-2020/03/31-22:45:58.073 5b6 Delete type=2 #1132
-2020/03/31-22:45:58.073 5b6 Delete type=2 #1128
-2020/03/31-22:45:58.073 5b6 Delete type=2 #1130
-2020/03/31-22:45:58.073 5b6 Delete type=2 #1134
-2020/03/31-22:46:33.755 5b6 Level-0 table #1142: started
-2020/03/31-22:46:33.763 5b6 Level-0 table #1142: 13401 bytes OK
-2020/03/31-22:46:33.767 5b6 Delete type=0 #1137
-2020/03/31-22:46:57.989 5b6 Level-0 table #1144: started
-2020/03/31-22:46:57.996 5b6 Level-0 table #1144: 9518 bytes OK
-2020/03/31-22:46:57.999 5b6 Delete type=0 #1141
-2020/04/01-01:17:57.989 5b6 Level-0 table #1146: started
-2020/04/01-01:18:00.813 5b6 Level-0 table #1146: 12767 bytes OK
-2020/04/01-01:18:01.622 5b6 Delete type=0 #1143
-2020/04/01-01:18:01.622 5b6 Compacting 4@0 + 2@1 files
-2020/04/01-01:18:06.165 5b6 Generated table #1147@0: 3102 keys, 2127052 bytes
-2020/04/01-01:18:07.135 5b6 Generated table #1148@0: 214 keys, 396041 bytes
-2020/04/01-01:18:07.135 5b6 Compacted 4@0 + 2@1 files => 2523093 bytes
-2020/04/01-01:18:07.275 5b6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/01-01:18:07.276 5b6 Delete type=2 #1144
-2020/04/01-01:18:07.276 5b6 Delete type=2 #1140
-2020/04/01-01:18:07.276 5b6 Delete type=2 #1146
-2020/04/01-01:18:07.276 5b6 Delete type=2 #1139
-2020/04/01-01:18:07.276 5b6 Delete type=2 #1142
-2020/04/01-01:18:07.276 5b6 Delete type=2 #1138
-2020/04/01-03:30:36.066 5b6 Level-0 table #1150: started
-2020/04/01-03:30:36.073 5b6 Level-0 table #1150: 13562 bytes OK
-2020/04/01-03:30:36.077 5b6 Delete type=0 #1145
-2020/04/01-03:30:59.950 5b6 Level-0 table #1152: started
-2020/04/01-03:30:59.964 5b6 Level-0 table #1152: 10403 bytes OK
-2020/04/01-03:30:59.973 5b6 Delete type=0 #1149
-2020/04/01-05:17:24.448 5b6 Level-0 table #1154: started
-2020/04/01-05:17:24.454 5b6 Level-0 table #1154: 12864 bytes OK
-2020/04/01-05:17:24.458 5b6 Delete type=0 #1151
-2020/04/01-05:17:43.985 5b6 Level-0 table #1156: started
-2020/04/01-05:17:43.991 5b6 Level-0 table #1156: 10138 bytes OK
-2020/04/01-05:17:43.995 5b6 Delete type=0 #1153
-2020/04/01-05:17:43.995 5b6 Compacting 4@0 + 2@1 files
-2020/04/01-05:17:44.098 5b6 Generated table #1157@0: 3105 keys, 2127888 bytes
-2020/04/01-05:17:44.127 5b6 Generated table #1158@0: 214 keys, 396684 bytes
-2020/04/01-05:17:44.128 5b6 Compacted 4@0 + 2@1 files => 2524572 bytes
-2020/04/01-05:17:44.131 5b6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/01-05:17:44.132 5b6 Delete type=2 #1150
-2020/04/01-05:17:44.132 5b6 Delete type=2 #1147
-2020/04/01-05:17:44.132 5b6 Delete type=2 #1152
-2020/04/01-05:17:44.132 5b6 Delete type=2 #1156
-2020/04/01-05:17:44.132 5b6 Delete type=2 #1154
-2020/04/01-05:17:44.132 5b6 Delete type=2 #1148
-2020/04/01-05:18:08.227 5b6 Level-0 table #1160: started
-2020/04/01-05:18:08.235 5b6 Level-0 table #1160: 10323 bytes OK
-2020/04/01-05:18:08.238 5b6 Delete type=0 #1155
+2020/04/03-16:48:58.220 2909d Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/04/03-16:48:58.220 2909d Recovering log #1287
+2020/04/03-16:48:58.220 2909d Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001287.log 
+2020/04/03-16:49:14.525 292b3 Level-0 table #1291: started
+2020/04/03-16:49:14.561 292b3 Level-0 table #1291: 383346 bytes OK
+2020/04/03-16:49:14.576 292b3 Delete type=0 #1287
+2020/04/03-16:49:35.720 292b3 Level-0 table #1293: started
+2020/04/03-16:49:35.733 292b3 Level-0 table #1293: 83784 bytes OK
+2020/04/03-16:49:35.737 292b3 Delete type=0 #1290
+2020/04/03-16:50:58.235 292b3 Level-0 table #1295: started
+2020/04/03-16:50:58.660 292b3 Level-0 table #1295: 89005 bytes OK
+2020/04/03-16:50:58.783 292b3 Delete type=0 #1292
+2020/04/03-16:50:58.783 292b3 Compacting 4@0 + 3@1 files
+2020/04/03-16:51:03.279 292b3 Generated table #1296@0: 3782 keys, 2103048 bytes
+2020/04/03-16:51:06.682 292b3 Generated table #1297@0: 234 keys, 810593 bytes
+2020/04/03-16:51:06.682 292b3 Compacted 4@0 + 3@1 files => 2913641 bytes
+2020/04/03-16:51:06.700 292b3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/03-16:51:06.700 292b3 Delete type=2 #1285
+2020/04/03-16:51:06.700 292b3 Delete type=2 #1295
+2020/04/03-16:51:06.700 292b3 Delete type=2 #1276
+2020/04/03-16:51:06.700 292b3 Delete type=2 #1293
+2020/04/03-16:51:06.700 292b3 Delete type=2 #1286
+2020/04/03-16:51:06.700 292b3 Delete type=2 #1288
+2020/04/03-16:51:06.700 292b3 Delete type=2 #1291
+2020/04/03-17:03:17.588 292b3 Level-0 table #1299: started
+2020/04/03-17:03:17.596 292b3 Level-0 table #1299: 89700 bytes OK
+2020/04/03-17:03:17.599 292b3 Delete type=0 #1294
+2020/04/03-17:07:29.893 292b3 Level-0 table #1301: started
+2020/04/03-17:07:29.927 292b3 Level-0 table #1301: 379276 bytes OK
+2020/04/03-17:07:29.931 292b3 Delete type=0 #1298
+2020/04/03-17:42:51.540 292b3 Level-0 table #1303: started
+2020/04/03-17:42:51.550 292b3 Level-0 table #1303: 89890 bytes OK
+2020/04/03-17:42:51.554 292b3 Delete type=0 #1300
+2020/04/03-17:43:06.419 292b3 Level-0 table #1305: started
+2020/04/03-17:43:08.975 292b3 Level-0 table #1305: 84790 bytes OK
+2020/04/03-17:43:13.939 292b3 Delete type=0 #1302
+2020/04/03-17:43:13.939 292b3 Compacting 4@0 + 2@1 files
+2020/04/03-17:43:14.213 292b3 Generated table #1306@0: 3830 keys, 2104475 bytes
+2020/04/03-17:43:17.255 292b3 Generated table #1307@0: 234 keys, 810586 bytes
+2020/04/03-17:43:17.255 292b3 Compacted 4@0 + 2@1 files => 2915061 bytes
+2020/04/03-17:43:17.289 292b3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/03-17:43:17.289 292b3 Delete type=2 #1305
+2020/04/03-17:43:17.289 292b3 Delete type=2 #1303
+2020/04/03-17:43:17.289 292b3 Delete type=2 #1299
+2020/04/03-17:43:17.289 292b3 Delete type=2 #1301
+2020/04/03-17:43:17.289 292b3 Delete type=2 #1297
+2020/04/03-17:43:17.289 292b3 Delete type=2 #1296
+2020/04/03-17:45:23.478 292b3 Level-0 table #1309: started
+2020/04/03-17:45:23.488 292b3 Level-0 table #1309: 85539 bytes OK
+2020/04/03-17:45:23.492 292b3 Delete type=0 #1304
+2020/04/03-20:21:58.469 292b3 Level-0 table #1311: started
+2020/04/03-20:21:58.478 292b3 Level-0 table #1311: 16811 bytes OK
+2020/04/03-20:21:58.486 292b3 Delete type=0 #1308
+2020/04/03-20:26:45.671 292b3 Level-0 table #1313: started
+2020/04/03-20:26:45.681 292b3 Level-0 table #1313: 88287 bytes OK
+2020/04/03-20:26:45.684 292b3 Delete type=0 #1310
+2020/04/03-20:33:03.874 292b3 Level-0 table #1315: started
+2020/04/03-20:33:03.879 292b3 Level-0 table #1315: 12739 bytes OK
+2020/04/03-20:33:03.883 292b3 Delete type=0 #1312
+2020/04/03-20:33:03.884 292b3 Compacting 4@0 + 2@1 files
+2020/04/03-20:33:03.991 292b3 Generated table #1316@0: 3884 keys, 2107254 bytes
+2020/04/03-20:33:04.039 292b3 Generated table #1317@0: 235 keys, 810597 bytes
+2020/04/03-20:33:04.039 292b3 Compacted 4@0 + 2@1 files => 2917851 bytes
+2020/04/03-20:33:04.043 292b3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/03-20:33:04.043 292b3 Delete type=2 #1313
+2020/04/03-20:33:04.043 292b3 Delete type=2 #1315
+2020/04/03-20:33:04.043 292b3 Delete type=2 #1306
+2020/04/03-20:33:04.043 292b3 Delete type=2 #1309
+2020/04/03-20:33:04.043 292b3 Delete type=2 #1311
+2020/04/03-20:33:04.043 292b3 Delete type=2 #1307
+2020/04/03-20:34:40.282 292b3 Level-0 table #1319: started
+2020/04/03-20:34:40.310 292b3 Level-0 table #1319: 10414 bytes OK
+2020/04/03-20:34:40.320 292b3 Delete type=0 #1314
+2020/04/03-20:47:24.633 292b3 Level-0 table #1321: started
+2020/04/03-20:47:24.648 292b3 Level-0 table #1321: 94329 bytes OK
+2020/04/03-20:47:24.659 292b3 Delete type=0 #1318
+2020/04/03-20:53:20.590 292b3 Level-0 table #1323: started
+2020/04/03-20:53:20.600 292b3 Level-0 table #1323: 95363 bytes OK
+2020/04/03-20:53:20.610 292b3 Delete type=0 #1320
+2020/04/03-21:17:08.530 292b3 Level-0 table #1325: started
+2020/04/03-21:17:08.579 292b3 Level-0 table #1325: 17108 bytes OK
+2020/04/03-21:17:08.665 292b3 Delete type=0 #1322
+2020/04/03-21:17:08.665 292b3 Compacting 4@0 + 2@1 files
+2020/04/03-21:17:08.873 292b3 Generated table #1326@0: 3995 keys, 2110932 bytes
+2020/04/03-21:17:08.956 292b3 Generated table #1327@0: 235 keys, 810599 bytes
+2020/04/03-21:17:08.956 292b3 Compacted 4@0 + 2@1 files => 2921531 bytes
+2020/04/03-21:17:08.959 292b3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/03-21:17:08.960 292b3 Delete type=2 #1316
+2020/04/03-21:17:08.960 292b3 Delete type=2 #1321
+2020/04/03-21:17:08.960 292b3 Delete type=2 #1319
+2020/04/03-21:17:08.960 292b3 Delete type=2 #1325
+2020/04/03-21:17:08.960 292b3 Delete type=2 #1323
+2020/04/03-21:17:08.960 292b3 Delete type=2 #1317
+2020/04/03-21:35:34.092 292b3 Level-0 table #1329: started
+2020/04/03-21:35:34.345 292b3 Level-0 table #1329: 16332 bytes OK
+2020/04/03-21:35:35.167 292b3 Delete type=0 #1324
+2020/04/03-21:39:14.248 292b3 Level-0 table #1331: started
+2020/04/03-21:39:14.258 292b3 Level-0 table #1331: 92876 bytes OK
+2020/04/03-21:39:14.262 292b3 Delete type=0 #1328
+2020/04/04-00:00:14.247 292b3 Level-0 table #1333: started
+2020/04/04-00:00:14.263 292b3 Level-0 table #1333: 14018 bytes OK
+2020/04/04-00:00:14.281 292b3 Delete type=0 #1330
+2020/04/04-02:29:52.760 292b3 Level-0 table #1335: started
+2020/04/04-02:29:52.769 292b3 Level-0 table #1335: 12969 bytes OK
+2020/04/04-02:29:52.780 292b3 Delete type=0 #1332
+2020/04/04-02:29:52.784 292b3 Compacting 4@0 + 2@1 files
+2020/04/04-02:29:52.980 292b3 Generated table #1336@0: 4113 keys, 2127006 bytes
+2020/04/04-02:29:53.067 292b3 Generated table #1337@0: 237 keys, 887391 bytes
+2020/04/04-02:29:53.067 292b3 Compacted 4@0 + 2@1 files => 3014397 bytes
+2020/04/04-02:29:53.076 292b3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/04-02:29:53.077 292b3 Delete type=2 #1327
+2020/04/04-02:29:53.077 292b3 Delete type=2 #1333
+2020/04/04-02:29:53.077 292b3 Delete type=2 #1329
+2020/04/04-02:29:53.077 292b3 Delete type=2 #1326
+2020/04/04-02:29:53.077 292b3 Delete type=2 #1335
+2020/04/04-02:29:53.077 292b3 Delete type=2 #1331

@@ -1,5 +1,46 @@
-2020/03/22-02:47:53.206 2bec Recovering log #78
-2020/03/22-02:47:53.228 2bec Level-0 table #80: started
-2020/03/22-02:47:53.273 2bec Level-0 table #80: 2383 bytes OK
-2020/03/22-02:47:53.370 2bec Delete type=0 #78
-2020/03/22-02:47:53.370 2bec Delete type=3 #76
+2020/04/03-13:26:14.558 25c5f Recovering log #83
+2020/04/03-13:26:14.559 25c5f Level-0 table #85: started
+2020/04/03-13:26:14.567 25c5f Level-0 table #85: 956 bytes OK
+2020/04/03-13:26:14.577 25c5f Delete type=3 #82
+2020/04/03-13:26:14.577 25c5f Delete type=0 #83
+2020/04/03-13:26:14.585 25dee Moved #85 to level-1 956 bytes OK: files[ 3 2 0 0 0 0 0 ]
+2020/04/03-13:27:57.963 25dee Level-0 table #88: started
+2020/04/03-13:27:58.520 25dee Level-0 table #88: 8748 bytes OK
+2020/04/03-13:27:58.674 25dee Delete type=0 #86
+2020/04/03-13:27:58.685 25dee Compacting 4@0 + 2@1 files
+2020/04/03-13:27:58.697 25dee Generated table #89@0: 1 keys, 551 bytes
+2020/04/03-13:27:58.697 25dee Compacted 4@0 + 2@1 files => 551 bytes
+2020/04/03-13:27:58.709 25dee compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/04/03-13:27:58.710 25dee Delete type=2 #85
+2020/04/03-13:27:58.710 25dee Delete type=2 #88
+2020/04/03-13:27:58.710 25dee Delete type=2 #80
+2020/04/03-13:27:58.710 25dee Delete type=2 #72
+2020/04/03-13:27:58.710 25dee Delete type=2 #74
+2020/04/03-13:27:58.710 25dee Delete type=2 #77
+2020/04/03-13:28:44.619 25dee Level-0 table #91: started
+2020/04/03-13:28:44.768 25dee Level-0 table #91: 8681 bytes OK
+2020/04/03-13:28:44.963 25dee Delete type=0 #87
+2020/04/03-13:29:48.397 25dee Level-0 table #93: started
+2020/04/03-13:29:49.340 25dee Level-0 table #93: 8668 bytes OK
+2020/04/03-13:29:49.513 25dee Delete type=0 #90
+2020/04/03-13:30:49.877 25dee Level-0 table #95: started
+2020/04/03-13:30:50.029 25dee Level-0 table #95: 8680 bytes OK
+2020/04/03-13:30:50.162 25dee Delete type=0 #92
+2020/04/03-13:31:19.163 25dee Level-0 table #97: started
+2020/04/03-13:31:20.183 25dee Level-0 table #97: 8671 bytes OK
+2020/04/03-13:31:20.546 25dee Delete type=0 #94
+2020/04/03-13:31:20.546 25dee Compacting 4@0 + 1@1 files
+2020/04/03-13:31:20.794 25dee Generated table #98@0: 1 keys, 551 bytes
+2020/04/03-13:31:20.794 25dee Compacted 4@0 + 1@1 files => 551 bytes
+2020/04/03-13:31:21.237 25dee compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/04/03-13:31:21.239 25dee Delete type=2 #89
+2020/04/03-13:31:21.239 25dee Delete type=2 #95
+2020/04/03-13:31:21.239 25dee Delete type=2 #97
+2020/04/03-13:31:21.239 25dee Delete type=2 #91
+2020/04/03-13:31:21.239 25dee Delete type=2 #93
+2020/04/03-13:36:46.539 25dee Level-0 table #100: started
+2020/04/03-13:36:46.548 25dee Level-0 table #100: 9055 bytes OK
+2020/04/03-13:36:46.552 25dee Delete type=0 #96
+2020/04/03-13:37:26.406 25dee Level-0 table #102: started
+2020/04/03-13:37:27.511 25dee Level-0 table #102: 9296 bytes OK
+2020/04/03-13:37:27.638 25dee Delete type=0 #99
