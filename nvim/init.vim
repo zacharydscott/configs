@@ -8,8 +8,9 @@
 
 
 call plug#begin('~/.vim/plugged')
+Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-surround'
@@ -46,6 +47,9 @@ nnoremap < <<
 nnoremap <Leader>j gt
 nnoremap <Leader>k gT
 
+" reload nvim
+nnoremap <Leader>r :Reload<CR>
+
 "" NERD Tree
 " focus nerd tree
 nnoremap <Leader>nf :NERDTreeFind<CR>
@@ -63,6 +67,9 @@ command! Reload execute ":so ~/.config/nvim/init.vim"
 "" theme
 colorscheme gruvbox
 hi Normal guibg=NONE ctermbg=NONE
+
+"" Emmet 
+let g:user_emnet_leader_key='<C-Z>'
 
 "" ctrl-p
 let g:ctrlp_custom_igrnoe = 'node_modules\|git'
