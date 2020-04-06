@@ -47,6 +47,9 @@ nnoremap < <<
 nnoremap <Leader>j gt
 nnoremap <Leader>k gT
 
+" emmet shortcut
+nnoremap <Leader>g, <C-Y>,
+
 " reload nvim
 nnoremap <Leader>r :Reload<CR>
 
@@ -67,9 +70,6 @@ command! Reload execute ":so ~/.config/nvim/init.vim"
 "" theme
 colorscheme gruvbox
 hi Normal guibg=NONE ctermbg=NONE
-
-"" Emmet 
-let g:user_emnet_leader_key='<C-Z>'
 
 "" ctrl-p
 let g:ctrlp_custom_igrnoe = 'node_modules\|git'

@@ -1,6 +1,118 @@
-2020/04/05-08:48:43.483 4b3 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/04/05-08:48:43.484 4b3 Recovering log #1608
-2020/04/05-08:48:43.498 4b3 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001608.log 
-2020/04/05-08:48:50.966 5fd Level-0 table #1614: started
-2020/04/05-08:48:50.982 5fd Level-0 table #1614: 16288 bytes OK
-2020/04/05-08:48:50.990 5fd Delete type=0 #1608
+2020/04/05-12:44:50.771 2df Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/04/05-12:44:50.772 2df Recovering log #1657
+2020/04/05-12:44:50.796 2df Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001657.log 
+2020/04/05-14:29:14.501 7a2 Level-0 table #1661: started
+2020/04/05-14:29:14.508 7a2 Level-0 table #1661: 15927 bytes OK
+2020/04/05-14:29:14.511 7a2 Delete type=0 #1657
+2020/04/05-14:32:57.482 7a2 Level-0 table #1663: started
+2020/04/05-14:32:57.493 7a2 Level-0 table #1663: 16923 bytes OK
+2020/04/05-14:32:57.497 7a2 Delete type=0 #1660
+2020/04/05-14:32:57.498 7a2 Compacting 4@0 + 2@1 files
+2020/04/05-14:32:57.676 7a2 Generated table #1664@0: 3096 keys, 2103368 bytes
+2020/04/05-14:33:02.187 7a2 Generated table #1665@0: 3199 keys, 1824426 bytes
+2020/04/05-14:33:02.187 7a2 Compacted 4@0 + 2@1 files => 3927794 bytes
+2020/04/05-14:33:03.058 7a2 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/05-14:33:03.059 7a2 Delete type=2 #1658
+2020/04/05-14:33:03.059 7a2 Delete type=2 #1653
+2020/04/05-14:33:03.059 7a2 Delete type=2 #1663
+2020/04/05-14:33:03.059 7a2 Delete type=2 #1656
+2020/04/05-14:33:03.059 7a2 Delete type=2 #1661
+2020/04/05-14:33:03.059 7a2 Delete type=2 #1654
+2020/04/05-14:37:40.689 7a2 Level-0 table #1667: started
+2020/04/05-14:37:40.695 7a2 Level-0 table #1667: 18193 bytes OK
+2020/04/05-14:37:40.698 7a2 Delete type=0 #1662
+2020/04/05-14:41:07.872 7a2 Level-0 table #1669: started
+2020/04/05-14:41:07.883 7a2 Level-0 table #1669: 131611 bytes OK
+2020/04/05-14:41:07.887 7a2 Delete type=0 #1666
+2020/04/05-22:37:14.791 7a2 Level-0 table #1671: started
+2020/04/05-22:37:14.797 7a2 Level-0 table #1671: 14694 bytes OK
+2020/04/05-22:37:14.805 7a2 Delete type=0 #1668
+2020/04/05-22:53:19.236 7a2 Level-0 table #1673: started
+2020/04/05-22:53:19.242 7a2 Level-0 table #1673: 11449 bytes OK
+2020/04/05-22:53:19.246 7a2 Delete type=0 #1670
+2020/04/05-22:53:19.246 7a2 Compacting 4@0 + 2@1 files
+2020/04/05-22:53:19.362 7a2 Generated table #1674@0: 3003 keys, 2102976 bytes
+2020/04/05-22:53:19.449 7a2 Generated table #1675@0: 3360 keys, 1869885 bytes
+2020/04/05-22:53:19.449 7a2 Compacted 4@0 + 2@1 files => 3972861 bytes
+2020/04/05-22:53:19.457 7a2 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/05-22:53:19.457 7a2 Delete type=2 #1673
+2020/04/05-22:53:19.457 7a2 Delete type=2 #1671
+2020/04/05-22:53:19.457 7a2 Delete type=2 #1667
+2020/04/05-22:53:19.457 7a2 Delete type=2 #1669
+2020/04/05-22:53:19.457 7a2 Delete type=2 #1665
+2020/04/05-22:53:19.457 7a2 Delete type=2 #1664
+2020/04/05-23:25:27.113 7a2 Level-0 table #1677: started
+2020/04/05-23:25:27.126 7a2 Level-0 table #1677: 14399 bytes OK
+2020/04/05-23:25:27.132 7a2 Delete type=0 #1672
+2020/04/05-23:27:25.868 7a2 Level-0 table #1679: started
+2020/04/05-23:27:25.875 7a2 Level-0 table #1679: 10914 bytes OK
+2020/04/05-23:27:25.879 7a2 Delete type=0 #1676
+2020/04/05-23:55:02.013 7a2 Level-0 table #1681: started
+2020/04/05-23:55:02.018 7a2 Level-0 table #1681: 17195 bytes OK
+2020/04/05-23:55:02.021 7a2 Delete type=0 #1678
+2020/04/05-23:58:17.150 7a2 Level-0 table #1683: started
+2020/04/05-23:58:17.156 7a2 Level-0 table #1683: 15559 bytes OK
+2020/04/05-23:58:17.160 7a2 Delete type=0 #1680
+2020/04/05-23:58:17.161 7a2 Compacting 4@0 + 2@1 files
+2020/04/05-23:58:17.284 7a2 Generated table #1684@0: 3000 keys, 2102618 bytes
+2020/04/05-23:58:22.978 7a2 Generated table #1685@0: 3424 keys, 1879827 bytes
+2020/04/05-23:58:22.978 7a2 Compacted 4@0 + 2@1 files => 3982445 bytes
+2020/04/05-23:58:23.004 7a2 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/05-23:58:23.005 7a2 Delete type=2 #1683
+2020/04/05-23:58:23.005 7a2 Delete type=2 #1677
+2020/04/05-23:58:23.005 7a2 Delete type=2 #1681
+2020/04/05-23:58:23.005 7a2 Delete type=2 #1679
+2020/04/05-23:58:23.005 7a2 Delete type=2 #1675
+2020/04/05-23:58:23.005 7a2 Delete type=2 #1674
+2020/04/05-23:58:45.566 7a2 Level-0 table #1687: started
+2020/04/05-23:58:48.159 7a2 Level-0 table #1687: 14864 bytes OK
+2020/04/05-23:58:48.212 7a2 Delete type=0 #1682
+2020/04/05-23:59:17.854 7a2 Level-0 table #1689: started
+2020/04/05-23:59:22.956 7a2 Level-0 table #1689: 15009 bytes OK
+2020/04/05-23:59:27.459 7a2 Delete type=0 #1686
+2020/04/06-00:34:23.212 7a2 Level-0 table #1691: started
+2020/04/06-00:34:23.365 7a2 Level-0 table #1691: 19151 bytes OK
+2020/04/06-00:34:23.514 7a2 Delete type=0 #1688
+2020/04/06-00:41:49.172 7a2 Level-0 table #1693: started
+2020/04/06-00:41:49.184 7a2 Level-0 table #1693: 15237 bytes OK
+2020/04/06-00:41:49.188 7a2 Delete type=0 #1690
+2020/04/06-00:41:49.188 7a2 Compacting 4@0 + 2@1 files
+2020/04/06-00:41:49.305 7a2 Generated table #1694@0: 3000 keys, 2103412 bytes
+2020/04/06-00:41:49.398 7a2 Generated table #1695@0: 3433 keys, 1874976 bytes
+2020/04/06-00:41:49.398 7a2 Compacted 4@0 + 2@1 files => 3978388 bytes
+2020/04/06-00:41:49.402 7a2 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/06-00:41:49.402 7a2 Delete type=2 #1689
+2020/04/06-00:41:49.402 7a2 Delete type=2 #1684
+2020/04/06-00:41:49.402 7a2 Delete type=2 #1691
+2020/04/06-00:41:49.403 7a2 Delete type=2 #1687
+2020/04/06-00:41:49.403 7a2 Delete type=2 #1693
+2020/04/06-00:41:49.403 7a2 Delete type=2 #1685
+2020/04/06-00:44:36.942 7a2 Level-0 table #1697: started
+2020/04/06-00:44:36.948 7a2 Level-0 table #1697: 12080 bytes OK
+2020/04/06-00:44:36.952 7a2 Delete type=0 #1692
+2020/04/06-00:46:34.534 7a2 Level-0 table #1699: started
+2020/04/06-00:46:37.081 7a2 Level-0 table #1699: 16801 bytes OK
+2020/04/06-00:46:37.824 7a2 Delete type=0 #1696
+2020/04/06-00:48:03.224 7a2 Level-0 table #1701: started
+2020/04/06-00:48:03.229 7a2 Level-0 table #1701: 10613 bytes OK
+2020/04/06-00:48:03.238 7a2 Delete type=0 #1698
+2020/04/06-01:54:38.546 7a2 Level-0 table #1703: started
+2020/04/06-01:54:38.554 7a2 Level-0 table #1703: 15741 bytes OK
+2020/04/06-01:54:38.557 7a2 Delete type=0 #1700
+2020/04/06-01:54:38.557 7a2 Compacting 4@0 + 2@1 files
+2020/04/06-01:54:38.668 7a2 Generated table #1704@0: 3004 keys, 2104601 bytes
+2020/04/06-01:54:38.886 7a2 Generated table #1705@0: 3482 keys, 1880502 bytes
+2020/04/06-01:54:38.886 7a2 Compacted 4@0 + 2@1 files => 3985103 bytes
+2020/04/06-01:54:38.891 7a2 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/06-01:54:38.891 7a2 Delete type=2 #1701
+2020/04/06-01:54:38.891 7a2 Delete type=2 #1695
+2020/04/06-01:54:38.892 7a2 Delete type=2 #1699
+2020/04/06-01:54:38.892 7a2 Delete type=2 #1697
+2020/04/06-01:54:38.892 7a2 Delete type=2 #1694
+2020/04/06-01:54:38.892 7a2 Delete type=2 #1703
+2020/04/06-02:12:53.267 7a2 Level-0 table #1707: started
+2020/04/06-02:12:53.272 7a2 Level-0 table #1707: 13107 bytes OK
+2020/04/06-02:12:53.275 7a2 Delete type=0 #1702
+2020/04/06-03:04:53.267 7a2 Level-0 table #1709: started
+2020/04/06-03:04:53.409 7a2 Level-0 table #1709: 17117 bytes OK
+2020/04/06-03:04:53.415 7a2 Delete type=0 #1706
