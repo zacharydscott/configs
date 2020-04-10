@@ -1,49 +1,25 @@
-Mar 28 16:13:28.000 [notice] Tor 0.3.5.10 opening new log file.
-Mar 28 16:13:28.564 [notice] Tor 0.3.5.10 running on Linux with Libevent 2.1.9-beta, OpenSSL 1.0.2q, Zlib 1.2.11, Liblzma N/A, and Libzstd N/A.
-Mar 28 16:13:28.566 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
-Mar 28 16:13:28.566 [notice] Configuration file "/nonexistent" not present, using reasonable defaults.
-Mar 28 16:13:28.571 [notice] Opening Socks listener on 127.0.0.1:9390
-Mar 28 16:13:28.572 [notice] Opened Socks listener on 127.0.0.1:9390
-Mar 28 16:13:28.572 [notice] Opening Control listener on 127.0.0.1:0
-Mar 28 16:13:28.572 [notice] Control listener listening on port 43445.
-Mar 28 16:13:28.572 [notice] Opened Control listener on 127.0.0.1:43445
-Mar 28 16:13:28.000 [notice] Bootstrapped 0%: Starting
-Mar 28 16:13:29.000 [warn] Our clock is 3 hours, 46 minutes behind the time published in the consensus network status document (2020-03-29 01:00:00 UTC).  Tor needs an accurate clock to work correctly. Please check your time and date settings!
-Mar 28 16:13:29.000 [warn] Received microdesc flavor consensus with skewed time (CONSENSUS): It seems that our clock is behind by 3 hours, 46 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Mar 28 16:13:29.000 [warn] Problem bootstrapping. Stuck at 0%: Starting. (Clock skew -13592 in microdesc flavor consensus from CONSENSUS; CLOCK_SKEW; count 1; recommendation warn; host ? at ?)
-Mar 28 16:13:29.000 [notice] Starting with guard context "default"
-Mar 28 16:13:29.000 [notice] Bootstrapped 5%: Connecting to directory server
-Mar 28 16:13:29.000 [notice] Bootstrapped 10%: Finishing handshake with directory server
-Mar 28 16:13:30.000 [notice] Bootstrapped 15%: Establishing an encrypted directory connection
-Mar 28 16:13:30.000 [notice] Bootstrapped 20%: Asking for networkstatus consensus
-Mar 28 16:13:30.000 [notice] Bootstrapped 25%: Loading networkstatus consensus
-Mar 28 16:13:36.000 [warn] Received NETINFO cell with skewed time (OR:45.66.33.45:443): It seems that our clock is behind by 4 hours, 0 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Mar 28 16:13:36.000 [warn] Problem bootstrapping. Stuck at 25%: Loading networkstatus consensus. (Clock skew -14436 in NETINFO cell from OR; CLOCK_SKEW; count 2; recommendation warn; host 7EA6EAD6FD83083C538F44038BBFA077587DD755 at 45.66.33.45:443)
-Mar 28 16:13:36.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:36.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:36.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:36.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:40.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:40.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:40.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:43.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:43.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:43.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:43.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:49.000 [warn] Received directory with skewed time (DIRSERV:193.23.244.244:443): It seems that our clock is behind by 4 hours, 0 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Mar 28 16:13:49.000 [warn] Problem bootstrapping. Stuck at 25%: Loading networkstatus consensus. (Clock skew -14437 in directory from DIRSERV; CLOCK_SKEW; count 3; recommendation warn; host ? at 193.23.244.244:443)
-Mar 28 16:13:54.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:54.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:54.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:54.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:13:54.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:14:00.000 [warn] Received directory with skewed time (DIRSERV:204.13.164.118:443): It seems that our clock is behind by 4 hours, 0 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Mar 28 16:14:00.000 [warn] Problem bootstrapping. Stuck at 25%: Loading networkstatus consensus. (Clock skew -14437 in directory from DIRSERV; CLOCK_SKEW; count 4; recommendation warn; host ? at 204.13.164.118:443)
-Mar 28 16:14:07.000 [warn] Received directory with skewed time (DIRSERV:131.188.40.189:443): It seems that our clock is behind by 4 hours, 0 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Mar 28 16:14:07.000 [warn] Problem bootstrapping. Stuck at 25%: Loading networkstatus consensus. (Clock skew -14438 in directory from DIRSERV; CLOCK_SKEW; count 5; recommendation warn; host ? at 131.188.40.189:443)
-Mar 28 16:14:19.000 [warn] Received directory with skewed time (DIRSERV:193.23.244.244:443): It seems that our clock is behind by 4 hours, 0 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Mar 28 16:14:19.000 [warn] Problem bootstrapping. Stuck at 25%: Loading networkstatus consensus. (Clock skew -14438 in directory from DIRSERV; CLOCK_SKEW; count 6; recommendation warn; host ? at 193.23.244.244:443)
-Mar 28 16:14:25.000 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
-Mar 28 16:14:32.000 [warn] Received directory with skewed time (DIRSERV:86.59.21.38:443): It seems that our clock is behind by 4 hours, 0 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Mar 28 16:14:32.000 [warn] Problem bootstrapping. Stuck at 25%: Loading networkstatus consensus. (Clock skew -14437 in directory from DIRSERV; CLOCK_SKEW; count 7; recommendation warn; host ? at 86.59.21.38:443)
-Mar 28 16:14:33.000 [notice] Catching signal TERM, exiting cleanly.
+Apr 10 02:54:32.000 [notice] Tor 0.3.5.10 opening new log file.
+Apr 10 02:54:32.644 [notice] Tor 0.3.5.10 running on Linux with Libevent 2.1.9-beta, OpenSSL 1.0.2q, Zlib 1.2.11, Liblzma N/A, and Libzstd N/A.
+Apr 10 02:54:32.647 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning
+Apr 10 02:54:32.647 [notice] Configuration file "/nonexistent" not present, using reasonable defaults.
+Apr 10 02:54:32.682 [notice] Opening Socks listener on 127.0.0.1:9390
+Apr 10 02:54:32.682 [notice] Opened Socks listener on 127.0.0.1:9390
+Apr 10 02:54:32.682 [notice] Opening Control listener on 127.0.0.1:0
+Apr 10 02:54:32.682 [notice] Control listener listening on port 41263.
+Apr 10 02:54:32.682 [notice] Opened Control listener on 127.0.0.1:41263
+Apr 10 02:54:32.000 [notice] Bootstrapped 0%: Starting
+Apr 10 02:54:34.000 [notice] Starting with guard context "default"
+Apr 10 02:54:34.000 [notice] Bootstrapped 5%: Connecting to directory server
+Apr 10 02:54:34.000 [notice] Bootstrapped 10%: Finishing handshake with directory server
+Apr 10 02:54:34.000 [notice] Bootstrapped 15%: Establishing an encrypted directory connection
+Apr 10 02:54:34.000 [notice] Bootstrapped 20%: Asking for networkstatus consensus
+Apr 10 02:54:34.000 [notice] Bootstrapped 25%: Loading networkstatus consensus
+Apr 10 02:54:39.000 [warn] Our clock is 22 hours, 5 minutes behind the time published in the consensus network status document (2020-04-11 06:00:00 UTC).  Tor needs an accurate clock to work correctly. Please check your time and date settings!
+Apr 10 02:54:39.000 [warn] Received microdesc flavor consensus with skewed time (CONSENSUS): It seems that our clock is behind by 22 hours, 5 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+Apr 10 02:54:39.000 [warn] Problem bootstrapping. Stuck at 25%: Loading networkstatus consensus. (Clock skew -79524 in microdesc flavor consensus from CONSENSUS; CLOCK_SKEW; count 1; recommendation warn; host ? at ?)
+Apr 10 02:54:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no recent usable consensus.
+Apr 10 02:54:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no recent usable consensus.
+Apr 10 02:54:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no recent usable consensus.
+Apr 10 02:54:41.000 [warn] Received NETINFO cell with skewed time (OR:171.25.193.9:80): It seems that our clock is behind by 23 hours, 0 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+Apr 10 02:54:41.000 [warn] Problem bootstrapping. Stuck at 25%: Loading networkstatus consensus. (Clock skew -82846 in NETINFO cell from OR; CLOCK_SKEW; count 2; recommendation warn; host BD6A829255CB08E66FBE7D3748363586E46B3810 at 171.25.193.9:80)
+Apr 10 02:54:46.000 [notice] Catching signal TERM, exiting cleanly.
