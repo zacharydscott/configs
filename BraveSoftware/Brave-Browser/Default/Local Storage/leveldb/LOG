@@ -1,213 +1,26 @@
-2020/04/09-12:48:17.292 66b Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/04/09-12:48:17.292 66b Recovering log #2319
-2020/04/09-12:48:17.314 66b Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/002319.log 
-2020/04/09-12:48:52.822 8a6 Level-0 table #2323: started
-2020/04/09-12:48:52.837 8a6 Level-0 table #2323: 14550 bytes OK
-2020/04/09-12:48:52.854 8a6 Delete type=0 #2319
-2020/04/09-18:51:56.911 8a6 Level-0 table #2325: started
-2020/04/09-18:51:56.917 8a6 Level-0 table #2325: 15797 bytes OK
-2020/04/09-18:51:56.920 8a6 Delete type=0 #2322
-2020/04/09-19:48:23.225 8a6 Level-0 table #2327: started
-2020/04/09-19:48:23.232 8a6 Level-0 table #2327: 11623 bytes OK
-2020/04/09-19:48:23.236 8a6 Delete type=0 #2324
-2020/04/09-19:48:23.236 8a6 Compacting 4@0 + 2@1 files
-2020/04/09-19:48:23.547 8a6 Generated table #2328@0: 3495 keys, 2104145 bytes
-2020/04/09-19:48:23.714 8a6 Generated table #2329@0: 4003 keys, 1990199 bytes
-2020/04/09-19:48:23.714 8a6 Compacted 4@0 + 2@1 files => 4094344 bytes
-2020/04/09-19:48:23.717 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/09-19:48:23.718 8a6 Delete type=2 #2317
-2020/04/09-19:48:23.718 8a6 Delete type=2 #2327
-2020/04/09-19:48:23.718 8a6 Delete type=2 #2323
-2020/04/09-19:48:23.718 8a6 Delete type=2 #2325
-2020/04/09-19:48:23.718 8a6 Delete type=2 #2318
-2020/04/09-19:48:23.718 8a6 Delete type=2 #2320
-2020/04/09-21:53:26.137 8a6 Level-0 table #2331: started
-2020/04/09-21:53:26.144 8a6 Level-0 table #2331: 10912 bytes OK
-2020/04/09-21:53:26.148 8a6 Delete type=0 #2326
-2020/04/09-22:40:26.137 8a6 Level-0 table #2333: started
-2020/04/09-22:40:29.327 8a6 Level-0 table #2333: 15847 bytes OK
-2020/04/09-22:40:30.386 8a6 Delete type=0 #2330
-2020/04/09-22:44:26.137 8a6 Level-0 table #2335: started
-2020/04/09-22:44:26.144 8a6 Level-0 table #2335: 9342 bytes OK
-2020/04/09-22:44:26.148 8a6 Delete type=0 #2332
-2020/04/09-23:43:26.140 8a6 Level-0 table #2337: started
-2020/04/09-23:43:26.280 8a6 Level-0 table #2337: 11061 bytes OK
-2020/04/09-23:43:26.300 8a6 Delete type=0 #2334
-2020/04/09-23:43:26.300 8a6 Compacting 4@0 + 2@1 files
-2020/04/09-23:43:26.612 8a6 Generated table #2338@0: 3493 keys, 2102996 bytes
-2020/04/09-23:43:31.239 8a6 Generated table #2339@0: 4012 keys, 1993232 bytes
-2020/04/09-23:43:31.240 8a6 Compacted 4@0 + 2@1 files => 4096228 bytes
-2020/04/09-23:43:31.286 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/09-23:43:31.287 8a6 Delete type=2 #2337
-2020/04/09-23:43:31.287 8a6 Delete type=2 #2335
-2020/04/09-23:43:31.287 8a6 Delete type=2 #2333
-2020/04/09-23:43:31.287 8a6 Delete type=2 #2331
-2020/04/09-23:43:31.287 8a6 Delete type=2 #2328
-2020/04/09-23:43:31.287 8a6 Delete type=2 #2329
-2020/04/10-00:42:26.137 8a6 Level-0 table #2341: started
-2020/04/10-00:42:26.142 8a6 Level-0 table #2341: 11201 bytes OK
-2020/04/10-00:42:26.146 8a6 Delete type=0 #2336
-2020/04/10-01:14:18.089 8a6 Level-0 table #2343: started
-2020/04/10-01:14:18.108 8a6 Level-0 table #2343: 13974 bytes OK
-2020/04/10-01:14:18.121 8a6 Delete type=0 #2340
-2020/04/10-01:14:58.636 8a6 Level-0 table #2345: started
-2020/04/10-01:14:59.744 8a6 Level-0 table #2345: 13796 bytes OK
-2020/04/10-01:15:00.325 8a6 Delete type=0 #2342
-2020/04/10-01:16:09.362 8a6 Level-0 table #2347: started
-2020/04/10-01:16:09.372 8a6 Level-0 table #2347: 12323 bytes OK
-2020/04/10-01:16:09.376 8a6 Delete type=0 #2344
-2020/04/10-01:16:09.376 8a6 Compacting 4@0 + 2@1 files
-2020/04/10-01:16:09.492 8a6 Generated table #2348@0: 3493 keys, 2104158 bytes
-2020/04/10-01:16:09.589 8a6 Generated table #2349@0: 4016 keys, 1993333 bytes
-2020/04/10-01:16:09.590 8a6 Compacted 4@0 + 2@1 files => 4097491 bytes
-2020/04/10-01:16:09.593 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/10-01:16:09.594 8a6 Delete type=2 #2339
-2020/04/10-01:16:09.594 8a6 Delete type=2 #2347
-2020/04/10-01:16:09.594 8a6 Delete type=2 #2341
-2020/04/10-01:16:09.594 8a6 Delete type=2 #2343
-2020/04/10-01:16:09.594 8a6 Delete type=2 #2338
-2020/04/10-01:16:09.594 8a6 Delete type=2 #2345
-2020/04/10-01:18:26.138 8a6 Level-0 table #2351: started
-2020/04/10-01:18:26.143 8a6 Level-0 table #2351: 12908 bytes OK
-2020/04/10-01:18:26.147 8a6 Delete type=0 #2346
-2020/04/10-01:29:39.868 8a6 Level-0 table #2353: started
-2020/04/10-01:29:39.874 8a6 Level-0 table #2353: 10841 bytes OK
-2020/04/10-01:29:39.878 8a6 Delete type=0 #2350
-2020/04/10-01:33:26.138 8a6 Level-0 table #2355: started
-2020/04/10-01:33:26.144 8a6 Level-0 table #2355: 16074 bytes OK
-2020/04/10-01:33:26.149 8a6 Delete type=0 #2352
-2020/04/10-01:35:56.157 8a6 Level-0 table #2357: started
-2020/04/10-01:35:56.163 8a6 Level-0 table #2357: 8856 bytes OK
-2020/04/10-01:35:56.167 8a6 Delete type=0 #2354
-2020/04/10-01:35:56.167 8a6 Compacting 4@0 + 2@1 files
-2020/04/10-01:35:59.635 8a6 Generated table #2358@0: 3491 keys, 2103304 bytes
-2020/04/10-01:36:08.448 8a6 Generated table #2359@0: 4031 keys, 1994936 bytes
-2020/04/10-01:36:08.448 8a6 Compacted 4@0 + 2@1 files => 4098240 bytes
-2020/04/10-01:36:08.785 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/10-01:36:08.785 8a6 Delete type=2 #2355
-2020/04/10-01:36:08.785 8a6 Delete type=2 #2357
-2020/04/10-01:36:08.785 8a6 Delete type=2 #2351
-2020/04/10-01:36:08.785 8a6 Delete type=2 #2353
-2020/04/10-01:36:08.786 8a6 Delete type=2 #2348
-2020/04/10-01:36:08.786 8a6 Delete type=2 #2349
-2020/04/10-01:39:52.957 8a6 Level-0 table #2361: started
-2020/04/10-01:39:52.964 8a6 Level-0 table #2361: 9347 bytes OK
-2020/04/10-01:39:52.967 8a6 Delete type=0 #2356
-2020/04/10-01:40:26.136 8a6 Level-0 table #2363: started
-2020/04/10-01:40:27.867 8a6 Level-0 table #2363: 15382 bytes OK
-2020/04/10-01:40:29.330 8a6 Delete type=0 #2360
-2020/04/10-01:41:03.308 8a6 Level-0 table #2365: started
-2020/04/10-01:41:03.313 8a6 Level-0 table #2365: 8591 bytes OK
-2020/04/10-01:41:03.316 8a6 Delete type=0 #2362
-2020/04/10-01:41:26.137 8a6 Level-0 table #2367: started
-2020/04/10-01:41:26.144 8a6 Level-0 table #2367: 8656 bytes OK
-2020/04/10-01:41:26.152 8a6 Delete type=0 #2364
-2020/04/10-01:41:26.152 8a6 Compacting 4@0 + 2@1 files
-2020/04/10-01:41:26.268 8a6 Generated table #2368@0: 3489 keys, 2102880 bytes
-2020/04/10-01:41:26.366 8a6 Generated table #2369@0: 4043 keys, 1996842 bytes
-2020/04/10-01:41:26.366 8a6 Compacted 4@0 + 2@1 files => 4099722 bytes
-2020/04/10-01:41:26.369 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/10-01:41:26.369 8a6 Delete type=2 #2361
-2020/04/10-01:41:26.369 8a6 Delete type=2 #2367
-2020/04/10-01:41:26.369 8a6 Delete type=2 #2365
-2020/04/10-01:41:26.369 8a6 Delete type=2 #2358
-2020/04/10-01:41:26.369 8a6 Delete type=2 #2363
-2020/04/10-01:41:26.369 8a6 Delete type=2 #2359
-2020/04/10-01:46:26.138 8a6 Level-0 table #2371: started
-2020/04/10-01:46:26.145 8a6 Level-0 table #2371: 11520 bytes OK
-2020/04/10-01:46:26.150 8a6 Delete type=0 #2366
-2020/04/10-01:47:26.138 8a6 Level-0 table #2373: started
-2020/04/10-01:47:26.143 8a6 Level-0 table #2373: 9574 bytes OK
-2020/04/10-01:47:26.147 8a6 Delete type=0 #2370
-2020/04/10-01:50:28.378 8a6 Level-0 table #2375: started
-2020/04/10-01:50:29.119 8a6 Level-0 table #2375: 10310 bytes OK
-2020/04/10-01:50:30.057 8a6 Delete type=0 #2372
-2020/04/10-02:04:01.828 8a6 Level-0 table #2377: started
-2020/04/10-02:04:01.840 8a6 Level-0 table #2377: 12201 bytes OK
-2020/04/10-02:04:01.843 8a6 Delete type=0 #2374
-2020/04/10-02:04:01.844 8a6 Compacting 4@0 + 2@1 files
-2020/04/10-02:04:01.962 8a6 Generated table #2378@0: 3485 keys, 2102961 bytes
-2020/04/10-02:04:02.069 8a6 Generated table #2379@0: 4053 keys, 1997223 bytes
-2020/04/10-02:04:02.069 8a6 Compacted 4@0 + 2@1 files => 4100184 bytes
-2020/04/10-02:04:02.072 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/10-02:04:02.072 8a6 Delete type=2 #2377
-2020/04/10-02:04:02.072 8a6 Delete type=2 #2369
-2020/04/10-02:04:02.072 8a6 Delete type=2 #2375
-2020/04/10-02:04:02.072 8a6 Delete type=2 #2371
-2020/04/10-02:04:02.072 8a6 Delete type=2 #2368
-2020/04/10-02:04:02.072 8a6 Delete type=2 #2373
-2020/04/10-02:07:34.259 8a6 Level-0 table #2381: started
-2020/04/10-02:07:34.263 8a6 Level-0 table #2381: 16705 bytes OK
-2020/04/10-02:07:34.267 8a6 Delete type=0 #2376
-2020/04/10-02:10:26.137 8a6 Level-0 table #2383: started
-2020/04/10-02:10:26.143 8a6 Level-0 table #2383: 11992 bytes OK
-2020/04/10-02:10:26.147 8a6 Delete type=0 #2380
-2020/04/10-02:26:26.137 8a6 Level-0 table #2385: started
-2020/04/10-02:26:26.144 8a6 Level-0 table #2385: 12443 bytes OK
-2020/04/10-02:26:26.148 8a6 Delete type=0 #2382
-2020/04/10-02:27:26.138 8a6 Level-0 table #2387: started
-2020/04/10-02:27:26.145 8a6 Level-0 table #2387: 12694 bytes OK
-2020/04/10-02:27:26.148 8a6 Delete type=0 #2384
-2020/04/10-02:27:26.148 8a6 Compacting 4@0 + 2@1 files
-2020/04/10-02:27:26.259 8a6 Generated table #2388@0: 3479 keys, 2103155 bytes
-2020/04/10-02:27:26.352 8a6 Generated table #2389@0: 4079 keys, 1998894 bytes
-2020/04/10-02:27:26.352 8a6 Compacted 4@0 + 2@1 files => 4102049 bytes
-2020/04/10-02:27:26.356 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/10-02:27:26.356 8a6 Delete type=2 #2379
-2020/04/10-02:27:26.356 8a6 Delete type=2 #2383
-2020/04/10-02:27:26.356 8a6 Delete type=2 #2385
-2020/04/10-02:27:26.356 8a6 Delete type=2 #2381
-2020/04/10-02:27:26.356 8a6 Delete type=2 #2387
-2020/04/10-02:27:26.356 8a6 Delete type=2 #2378
-2020/04/10-02:28:26.137 8a6 Level-0 table #2391: started
-2020/04/10-02:28:26.264 8a6 Level-0 table #2391: 11564 bytes OK
-2020/04/10-02:28:26.275 8a6 Delete type=0 #2386
-2020/04/10-02:54:57.938 8a6 Level-0 table #2393: started
-2020/04/10-02:54:57.950 8a6 Level-0 table #2393: 14255 bytes OK
-2020/04/10-02:54:57.954 8a6 Delete type=0 #2390
-2020/04/10-02:55:26.137 8a6 Level-0 table #2395: started
-2020/04/10-02:55:26.142 8a6 Level-0 table #2395: 10768 bytes OK
-2020/04/10-02:55:26.146 8a6 Delete type=0 #2392
-2020/04/10-03:45:26.137 8a6 Level-0 table #2397: started
-2020/04/10-03:45:26.150 8a6 Level-0 table #2397: 15893 bytes OK
-2020/04/10-03:45:26.158 8a6 Delete type=0 #2394
-2020/04/10-03:45:26.158 8a6 Compacting 4@0 + 2@1 files
-2020/04/10-03:45:26.348 8a6 Generated table #2398@0: 3479 keys, 2103937 bytes
-2020/04/10-03:45:26.519 8a6 Generated table #2399@0: 4079 keys, 1998903 bytes
-2020/04/10-03:45:26.519 8a6 Compacted 4@0 + 2@1 files => 4102840 bytes
-2020/04/10-03:45:26.529 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/10-03:45:26.530 8a6 Delete type=2 #2388
-2020/04/10-03:45:26.530 8a6 Delete type=2 #2393
-2020/04/10-03:45:26.530 8a6 Delete type=2 #2397
-2020/04/10-03:45:26.530 8a6 Delete type=2 #2389
-2020/04/10-03:45:26.530 8a6 Delete type=2 #2395
-2020/04/10-03:45:26.530 8a6 Delete type=2 #2391
-2020/04/10-03:55:26.137 8a6 Level-0 table #2401: started
-2020/04/10-03:55:26.211 8a6 Level-0 table #2401: 14009 bytes OK
-2020/04/10-03:55:26.288 8a6 Delete type=0 #2396
-2020/04/10-04:04:13.809 8a6 Level-0 table #2403: started
-2020/04/10-04:04:13.817 8a6 Level-0 table #2403: 19858 bytes OK
-2020/04/10-04:04:13.820 8a6 Delete type=0 #2400
-2020/04/10-04:04:26.136 8a6 Level-0 table #2405: started
-2020/04/10-04:04:26.142 8a6 Level-0 table #2405: 11945 bytes OK
-2020/04/10-04:04:26.146 8a6 Delete type=0 #2402
-2020/04/10-04:15:49.366 8a6 Level-0 table #2407: started
-2020/04/10-04:15:49.372 8a6 Level-0 table #2407: 15059 bytes OK
-2020/04/10-04:15:49.376 8a6 Delete type=0 #2404
-2020/04/10-04:15:49.376 8a6 Compacting 4@0 + 2@1 files
-2020/04/10-04:15:49.494 8a6 Generated table #2408@0: 3474 keys, 2103132 bytes
-2020/04/10-04:15:49.592 8a6 Generated table #2409@0: 4095 keys, 2000719 bytes
-2020/04/10-04:15:49.592 8a6 Compacted 4@0 + 2@1 files => 4103851 bytes
-2020/04/10-04:15:49.596 8a6 compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/04/10-04:15:49.596 8a6 Delete type=2 #2405
-2020/04/10-04:15:49.596 8a6 Delete type=2 #2407
-2020/04/10-04:15:49.597 8a6 Delete type=2 #2403
-2020/04/10-04:15:49.597 8a6 Delete type=2 #2398
-2020/04/10-04:15:49.597 8a6 Delete type=2 #2401
-2020/04/10-04:15:49.597 8a6 Delete type=2 #2399
-2020/04/10-04:16:26.137 8a6 Level-0 table #2411: started
-2020/04/10-04:16:26.144 8a6 Level-0 table #2411: 13719 bytes OK
-2020/04/10-04:16:26.149 8a6 Delete type=0 #2406
-2020/04/10-06:47:26.139 8a6 Level-0 table #2413: started
-2020/04/10-06:47:26.147 8a6 Level-0 table #2413: 12528 bytes OK
-2020/04/10-06:47:26.151 8a6 Delete type=0 #2410
+2020/04/26-19:09:07.000 31de Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/04/26-19:09:07.001 31de Recovering log #3242
+2020/04/26-19:09:07.001 31de Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/003242.log 
+2020/04/26-19:12:12.947 35f2 Level-0 table #3246: started
+2020/04/26-19:12:12.958 35f2 Level-0 table #3246: 10700 bytes OK
+2020/04/26-19:12:12.961 35f2 Delete type=0 #3242
+2020/04/26-19:12:12.962 35f2 Compacting 4@0 + 2@1 files
+2020/04/26-19:12:13.081 35f2 Generated table #3247@0: 3572 keys, 2175408 bytes
+2020/04/26-19:12:13.179 35f2 Generated table #3248@0: 4837 keys, 2091827 bytes
+2020/04/26-19:12:13.179 35f2 Compacted 4@0 + 2@1 files => 4267235 bytes
+2020/04/26-19:12:13.183 35f2 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/04/26-19:12:13.183 35f2 Delete type=2 #3239
+2020/04/26-19:12:13.183 35f2 Delete type=2 #3246
+2020/04/26-19:12:13.183 35f2 Delete type=2 #3243
+2020/04/26-19:12:13.183 35f2 Delete type=2 #3228
+2020/04/26-19:12:13.183 35f2 Delete type=2 #3237
+2020/04/26-19:12:13.183 35f2 Delete type=2 #3241
+2020/04/27-03:45:31.215 35f2 Level-0 table #3250: started
+2020/04/27-03:45:31.221 35f2 Level-0 table #3250: 14311 bytes OK
+2020/04/27-03:45:31.225 35f2 Delete type=0 #3245
+2020/04/27-04:34:08.492 35f2 Level-0 table #3252: started
+2020/04/27-04:34:08.497 35f2 Level-0 table #3252: 13240 bytes OK
+2020/04/27-04:34:08.500 35f2 Delete type=0 #3249
+2020/04/27-04:50:29.205 35f2 Level-0 table #3254: started
+2020/04/27-04:50:29.210 35f2 Level-0 table #3254: 11996 bytes OK
+2020/04/27-04:50:29.214 35f2 Delete type=0 #3251

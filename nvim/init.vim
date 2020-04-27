@@ -24,42 +24,21 @@ Plug 'mileszs/ack.vim'
 Plug 'HerringtonDarkholme/yats.vim'
 call plug#end()
 
-" remapping alphabet for colemak
-noremap d g
-noremap e k
-noremap f e
-noremap g t
-noremap i l
-noremap j y
-noremap k n
-noremap l u
-noremap n j
-noremap o p
-noremap p r
-noremap r s
-noremap s d
-noremap t f
-noremap u i
-noremap y o
-noremap D G
-noremap E K
-noremap F E
-noremap G T
-noremap I L
-noremap J Y
-noremap K N
-noremap L U
-noremap N J
-noremap O P
-noremap P R
-noremap R S
-noremap S D
-noremap T F
-noremap U I
-noremap Y O
+nnoremap n j
+nnoremap e k
+nnoremap i l
+nnoremap j e
+nnoremap k n
+nnoremap l i
 
-
-
+nnoremap N J
+nnoremap E K
+nnoremap I L
+nnoremap J E
+nnoremap K N
+nnoremap L I
+nnoremap ' /
+nnoremap \ '
 
 
 "" hotkey configurations

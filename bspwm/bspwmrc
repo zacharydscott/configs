@@ -1,14 +1,14 @@
 #!/bin/sh
 
-# Set the keyboard layout
-setxkbmap -layout us -variant coding 
-
 # establish tmp dir for sxhkd
 test -z /tmp/sxhkd && mkdir /tmp/sxhkd
 
 killall "picom"
 picom & 
 feh --bg-scale ~/pictures/wallpaper/current-wallpaper
+
+# Set the keyboard layout
+setxkbmap -layout us -variant coding
 
 killall "sxhkd"
 sxhkd -c ~/.config/sxhkd/sxhkdrc &
@@ -18,6 +18,8 @@ polybar -r bspwm &
 
 killall "redshift"
 redshift -l 35:-78 &
+
+setxkbmap -layout us,us -variant colcode,coding -variant grp:ralt_shift_toggle
 
 bspc monitor LVDS-1 -d 1 2 3 4 5 6 7 8 9 0 
 

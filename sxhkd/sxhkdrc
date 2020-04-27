@@ -22,11 +22,11 @@
 ################################################################
 
 # quit/restart bspwm
-super + alt  + {q,r}
+super + shift  + {q,r}
 	bspc {quit, wm -r}
 
 # Power down or restart the system
-super + alt + e
+super + shift + e
 	power-down-menu
 
 # ("Zen" Mode) Set bottom padding for when hands are in front of the monitor
@@ -55,11 +55,11 @@ super + b
 	brave
 
 # open up wallpapers
-super + alt + i
+super + shift + i
 	sxiv -tf ~/pictures/wallpaper/*
 
 # open list of pdfs
-super + alt + p
+super + shift + p
 	cd ~/pdf && ls | rofi -dmenu | xargs ~/.config/sxhkd/pdf.sh
 
 ## NODE_COMMANDS
@@ -69,7 +69,7 @@ super + {h,j,k,l}
 	bspc node {west,south,north,east} --focus
 
 # vim like bindings for swapping nodes current node for a given direction
-super + alt + {h,j,k,l}
+super + shift + {h,j,k,l}
 	bspc node --swap {west,south,north,east}
 
 # rotate the current node with it's sibling
@@ -116,7 +116,7 @@ super + shift +p
 ## DESKTOP_COMMANDS
 
 # Cycle through monitors TODO: add h and l
-super + {comma, semicolon}
+super + {comma,semicolon}
 	bspc desktop {prev,next} --focus
 
 # alt tab like behavior
@@ -150,5 +150,5 @@ super + shift + bracket{left,right}
 	light -S {0,100}
 
 # mute
-super + alt + m
+super + shift + m
 	pactl set-sink-mute 0 toggle
