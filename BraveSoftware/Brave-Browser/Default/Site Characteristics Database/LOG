@@ -1,4 +1,4 @@
-2020/04/26-19:09:06.432 31e0 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/MANIFEST-000001
-2020/04/26-19:09:06.435 31e0 Recovering log #9
-2020/04/26-19:09:06.436 31e0 (ignoring error) /home/main/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000009.log: dropping 68 bytes; Corruption: missing start of fragmented record(2)
-2020/04/26-19:09:06.436 31e0 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000009.log 
+2020/05/06-01:19:41.325 67c Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/MANIFEST-000001
+2020/05/06-01:19:41.325 67c Recovering log #9
+2020/05/06-01:19:41.326 67c (ignoring error) /home/main/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000009.log: dropping 68 bytes; Corruption: missing start of fragmented record(2)
+2020/05/06-01:19:41.326 67c Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000009.log 
