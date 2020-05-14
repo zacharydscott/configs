@@ -1,25 +1,95 @@
-2020/05/08-04:09:48.592 3c0 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/05/08-04:09:48.593 3c0 Recovering log #3659
-2020/05/08-04:09:48.672 3c0 Level-0 table #3664: started
-2020/05/08-04:09:48.705 3c0 Level-0 table #3664: 14185 bytes OK
-2020/05/08-04:09:48.719 3c0 Delete type=0 #3659
-2020/05/08-04:22:03.755 83c Level-0 table #3667: started
-2020/05/08-04:22:03.764 83c Level-0 table #3667: 17855 bytes OK
-2020/05/08-04:22:03.768 83c Delete type=0 #3665
-2020/05/08-04:29:57.483 83c Level-0 table #3669: started
-2020/05/08-04:29:57.489 83c Level-0 table #3669: 14637 bytes OK
-2020/05/08-04:29:57.497 83c Delete type=0 #3666
-2020/05/08-06:40:57.437 83c Level-0 table #3671: started
-2020/05/08-06:40:57.444 83c Level-0 table #3671: 11939 bytes OK
-2020/05/08-06:40:57.448 83c Delete type=0 #3668
-2020/05/08-06:40:57.449 83c Compacting 4@0 + 2@1 files
-2020/05/08-06:41:00.219 83c Generated table #3672@0: 3581 keys, 2193943 bytes
-2020/05/08-06:41:05.741 83c Generated table #3673@0: 4852 keys, 2091550 bytes
-2020/05/08-06:41:05.741 83c Compacted 4@0 + 2@1 files => 4285493 bytes
-2020/05/08-06:41:06.234 83c compacted to: files[ 0 3 1 0 0 0 0 ]
-2020/05/08-06:41:06.234 83c Delete type=2 #3667
-2020/05/08-06:41:06.234 83c Delete type=2 #3661
-2020/05/08-06:41:06.234 83c Delete type=2 #3671
-2020/05/08-06:41:06.234 83c Delete type=2 #3662
-2020/05/08-06:41:06.234 83c Delete type=2 #3669
-2020/05/08-06:41:06.234 83c Delete type=2 #3664
+2020/05/13-23:00:59.643 46d Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/05/13-23:00:59.644 46d Recovering log #4142
+2020/05/13-23:00:59.651 46d Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/004142.log 
+2020/05/14-01:47:53.631 88f Level-0 table #4146: started
+2020/05/14-01:47:53.644 88f Level-0 table #4146: 17080 bytes OK
+2020/05/14-01:47:53.647 88f Delete type=0 #4142
+2020/05/14-01:47:53.648 88f Compacting 4@0 + 2@1 files
+2020/05/14-01:47:53.831 88f Generated table #4147@0: 3591 keys, 2192664 bytes
+2020/05/14-01:47:54.023 88f Generated table #4148@0: 4914 keys, 2093471 bytes
+2020/05/14-01:47:54.023 88f Compacted 4@0 + 2@1 files => 4286135 bytes
+2020/05/14-01:47:54.027 88f compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/05/14-01:47:54.027 88f Delete type=2 #4136
+2020/05/14-01:47:54.027 88f Delete type=2 #4146
+2020/05/14-01:47:54.027 88f Delete type=2 #4141
+2020/05/14-01:47:54.027 88f Delete type=2 #4139
+2020/05/14-01:47:54.027 88f Delete type=2 #4137
+2020/05/14-01:47:54.027 88f Delete type=2 #4143
+2020/05/14-01:50:13.381 88f Level-0 table #4150: started
+2020/05/14-01:50:13.391 88f Level-0 table #4150: 13581 bytes OK
+2020/05/14-01:50:13.394 88f Delete type=0 #4145
+2020/05/14-01:52:03.846 88f Level-0 table #4152: started
+2020/05/14-01:52:03.851 88f Level-0 table #4152: 10605 bytes OK
+2020/05/14-01:52:03.854 88f Delete type=0 #4149
+2020/05/14-01:54:56.580 88f Level-0 table #4154: started
+2020/05/14-01:54:56.585 88f Level-0 table #4154: 12838 bytes OK
+2020/05/14-01:54:56.588 88f Delete type=0 #4151
+2020/05/14-01:55:40.271 88f Level-0 table #4156: started
+2020/05/14-01:55:40.316 88f Level-0 table #4156: 9715 bytes OK
+2020/05/14-01:55:40.354 88f Delete type=0 #4153
+2020/05/14-01:55:40.354 88f Compacting 4@0 + 2@1 files
+2020/05/14-01:55:42.647 88f Generated table #4157@0: 3591 keys, 2195369 bytes
+2020/05/14-01:55:42.916 88f Generated table #4158@0: 4914 keys, 2093503 bytes
+2020/05/14-01:55:42.916 88f Compacted 4@0 + 2@1 files => 4288872 bytes
+2020/05/14-01:55:42.926 88f compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/05/14-01:55:42.927 88f Delete type=2 #4152
+2020/05/14-01:55:42.927 88f Delete type=2 #4150
+2020/05/14-01:55:42.927 88f Delete type=2 #4154
+2020/05/14-01:55:42.927 88f Delete type=2 #4147
+2020/05/14-01:55:42.927 88f Delete type=2 #4156
+2020/05/14-01:55:42.927 88f Delete type=2 #4148
+2020/05/14-01:56:50.289 88f Level-0 table #4160: started
+2020/05/14-01:56:50.303 88f Level-0 table #4160: 10222 bytes OK
+2020/05/14-01:56:50.307 88f Delete type=0 #4155
+2020/05/14-01:57:16.560 88f Level-0 table #4162: started
+2020/05/14-01:57:16.570 88f Level-0 table #4162: 10419 bytes OK
+2020/05/14-01:57:16.574 88f Delete type=0 #4159
+2020/05/14-01:59:16.559 88f Level-0 table #4164: started
+2020/05/14-01:59:16.567 88f Level-0 table #4164: 11561 bytes OK
+2020/05/14-01:59:16.571 88f Delete type=0 #4161
+2020/05/14-02:08:16.559 88f Level-0 table #4166: started
+2020/05/14-02:08:16.564 88f Level-0 table #4166: 13274 bytes OK
+2020/05/14-02:08:16.571 88f Delete type=0 #4163
+2020/05/14-02:08:16.571 88f Compacting 4@0 + 2@1 files
+2020/05/14-02:08:16.691 88f Generated table #4167@0: 3591 keys, 2196891 bytes
+2020/05/14-02:08:16.931 88f Generated table #4168@0: 4914 keys, 2093492 bytes
+2020/05/14-02:08:16.931 88f Compacted 4@0 + 2@1 files => 4290383 bytes
+2020/05/14-02:08:16.934 88f compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/05/14-02:08:16.935 88f Delete type=2 #4166
+2020/05/14-02:08:16.935 88f Delete type=2 #4157
+2020/05/14-02:08:16.935 88f Delete type=2 #4158
+2020/05/14-02:08:16.935 88f Delete type=2 #4160
+2020/05/14-02:08:16.935 88f Delete type=2 #4164
+2020/05/14-02:08:16.935 88f Delete type=2 #4162
+2020/05/14-02:18:16.559 88f Level-0 table #4170: started
+2020/05/14-02:18:16.564 88f Level-0 table #4170: 11550 bytes OK
+2020/05/14-02:18:16.569 88f Delete type=0 #4165
+2020/05/14-02:37:16.559 88f Level-0 table #4172: started
+2020/05/14-02:37:16.565 88f Level-0 table #4172: 9085 bytes OK
+2020/05/14-02:37:16.569 88f Delete type=0 #4169
+2020/05/14-02:47:05.210 88f Level-0 table #4174: started
+2020/05/14-02:47:05.221 88f Level-0 table #4174: 15269 bytes OK
+2020/05/14-02:47:05.225 88f Delete type=0 #4171
+2020/05/14-02:57:50.350 88f Level-0 table #4176: started
+2020/05/14-02:57:50.356 88f Level-0 table #4176: 8616 bytes OK
+2020/05/14-02:57:50.360 88f Delete type=0 #4173
+2020/05/14-02:57:50.360 88f Compacting 4@0 + 2@1 files
+2020/05/14-02:57:50.488 88f Generated table #4177@0: 3593 keys, 2197515 bytes
+2020/05/14-02:57:50.607 88f Generated table #4178@0: 4918 keys, 2086556 bytes
+2020/05/14-02:57:50.607 88f Compacted 4@0 + 2@1 files => 4284071 bytes
+2020/05/14-02:57:50.611 88f compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/05/14-02:57:50.611 88f Delete type=2 #4167
+2020/05/14-02:57:50.611 88f Delete type=2 #4172
+2020/05/14-02:57:50.611 88f Delete type=2 #4176
+2020/05/14-02:57:50.611 88f Delete type=2 #4174
+2020/05/14-02:57:50.611 88f Delete type=2 #4168
+2020/05/14-02:57:50.611 88f Delete type=2 #4170
+2020/05/14-03:06:27.440 88f Level-0 table #4180: started
+2020/05/14-03:06:27.446 88f Level-0 table #4180: 8526 bytes OK
+2020/05/14-03:06:27.450 88f Delete type=0 #4175
+2020/05/14-05:38:16.559 88f Level-0 table #4182: started
+2020/05/14-05:38:17.575 88f Level-0 table #4182: 12227 bytes OK
+2020/05/14-05:38:17.594 88f Delete type=0 #4179
+2020/05/14-08:14:16.558 88f Level-0 table #4184: started
+2020/05/14-08:14:16.565 88f Level-0 table #4184: 11948 bytes OK
+2020/05/14-08:14:16.569 88f Delete type=0 #4181

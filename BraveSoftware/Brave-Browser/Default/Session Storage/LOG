@@ -1,3 +1,9 @@
-2020/05/08-04:10:04.424 30f Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2020/05/08-04:10:04.425 30f Recovering log #1994
-2020/05/08-04:10:04.430 30f Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/001994.log 
+2020/05/13-23:01:34.598 420 Reusing MANIFEST /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2020/05/13-23:01:34.599 420 Recovering log #1997
+2020/05/13-23:01:34.619 420 Reusing old log /home/main/.config/BraveSoftware/Brave-Browser/Default/Session Storage/001997.log 
+2020/05/14-01:52:37.871 88f Level-0 table #2002: started
+2020/05/14-01:52:37.877 88f Level-0 table #2002: 14527 bytes OK
+2020/05/14-01:52:37.884 88f Delete type=0 #1997
+2020/05/14-02:46:46.810 88f Level-0 table #2004: started
+2020/05/14-02:46:46.817 88f Level-0 table #2004: 17730 bytes OK
+2020/05/14-02:46:46.820 88f Delete type=0 #2001
